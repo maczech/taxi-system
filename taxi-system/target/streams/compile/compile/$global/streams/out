@@ -1,0 +1,46 @@
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0mInitial source changes: [0m
+[0m[[0mdebug[0m] [0m	removed:Set()[0m
+[0m[[0mdebug[0m] [0m	added: Set(/home/maczech/Development/workspace/scala/taxi/taxi-system/src/main/scala/com/mcz/Taxisystem.scala, /home/maczech/Development/workspace/scala/taxi/taxi-system/src/main/scala/com/mcz/taxi/TaxiActor.scala)[0m
+[0m[[0mdebug[0m] [0m	modified: Set()[0m
+[0m[[0mdebug[0m] [0mRemoved products: Set()[0m
+[0m[[0mdebug[0m] [0mExternal API changes: API Changes: Set()[0m
+[0m[[0mdebug[0m] [0mModified binary dependencies: Set()[0m
+[0m[[0mdebug[0m] [0mInitial directly invalidated sources: Set(/home/maczech/Development/workspace/scala/taxi/taxi-system/src/main/scala/com/mcz/Taxisystem.scala, /home/maczech/Development/workspace/scala/taxi/taxi-system/src/main/scala/com/mcz/taxi/TaxiActor.scala)[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0mSources indirectly invalidated by:[0m
+[0m[[0mdebug[0m] [0m	product: Set()[0m
+[0m[[0mdebug[0m] [0m	binary dep: Set()[0m
+[0m[[0mdebug[0m] [0m	external source: Set()[0m
+[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set(/home/maczech/Development/workspace/scala/taxi/taxi-system/src/main/scala/com/mcz/Taxisystem.scala, /home/maczech/Development/workspace/scala/taxi/taxi-system/src/main/scala/com/mcz/taxi/TaxiActor.scala)[0m
+[0m[[0mdebug[0m] [0mRecompiling all 2 sources: invalidated sources (2) exceeded 50.0% of all sources[0m
+[0m[[0minfo[0m] [0mCompiling 2 Scala sources to /home/maczech/Development/workspace/scala/taxi/taxi-system/target/scala-2.10/classes...[0m
+[0m[[0mdebug[0m] [0mGetting compiler-interface from component compiler for Scala 2.10.4[0m
+[0m[[0mdebug[0m] [0mGetting compiler-interface from component compiler for Scala 2.10.4[0m
+[0m[[0mdebug[0m] [0mRunning cached compiler 3a5a1476, interfacing (CompilerInterface) with Scala compiler version 2.10.4[0m
+[0m[[0mdebug[0m] [0mCalling Scala compiler with arguments  (CompilerInterface):[0m
+[0m[[0mdebug[0m] [0m	-bootclasspath[0m
+[0m[[0mdebug[0m] [0m	/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rhino.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/classes:/home/maczech/.sbt/boot/scala-2.10.4/lib/scala-library.jar[0m
+[0m[[0mdebug[0m] [0m	-classpath[0m
+[0m[[0mdebug[0m] [0m	/home/maczech/Development/workspace/scala/taxi/taxi-system/target/scala-2.10/classes:/home/maczech/.ivy2/cache/com.typesafe.akka/akka-actor_2.10/jars/akka-actor_2.10-2.3.7.jar:/home/maczech/.ivy2/cache/com.typesafe/config/bundles/config-1.2.1.jar:/home/maczech/.ivy2/cache/com.typesafe.akka/akka-slf4j_2.10/jars/akka-slf4j_2.10-2.3.7.jar:/home/maczech/.ivy2/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.7.5.jar[0m
+[0m[[31merror[0m] [0m/home/maczech/Development/workspace/scala/taxi/taxi-system/src/main/scala/com/mcz/Taxisystem.scala:7: object gps is not a member of package com.mcz[0m
+[0m[[31merror[0m] [0mimport com.mcz.gps.message.LocationRequest[0m
+[0m[[31merror[0m] [0m               ^[0m
+[0m[[31merror[0m] [0m/home/maczech/Development/workspace/scala/taxi/taxi-system/src/main/scala/com/mcz/Taxisystem.scala:26: not found: value LocationRequest[0m
+[0m[[31merror[0m] [0m  taxiActor ! LocationRequest[0m
+[0m[[31merror[0m] [0m              ^[0m
+[0m[[31merror[0m] [0m/home/maczech/Development/workspace/scala/taxi/taxi-system/src/main/scala/com/mcz/taxi/TaxiActor.scala:3: object gps is not a member of package com.mcz[0m
+[0m[[31merror[0m] [0mimport com.mcz.gps.GPSActor[0m
+[0m[[31merror[0m] [0m               ^[0m
+[0m[[31merror[0m] [0m/home/maczech/Development/workspace/scala/taxi/taxi-system/src/main/scala/com/mcz/taxi/TaxiActor.scala:4: object gps is not a member of package com.mcz[0m
+[0m[[31merror[0m] [0mimport com.mcz.gps.message.Location[0m
+[0m[[31merror[0m] [0m               ^[0m
+[0m[[31merror[0m] [0m/home/maczech/Development/workspace/scala/taxi/taxi-system/src/main/scala/com/mcz/taxi/TaxiActor.scala:17: not found: type GPSActor[0m
+[0m[[31merror[0m] [0m	gpsActor = context.actorOf(Props[GPSActor], "GpsActor")[0m
+[0m[[31merror[0m] [0m	                                 ^[0m
+[0m[[31merror[0m] [0m/home/maczech/Development/workspace/scala/taxi/taxi-system/src/main/scala/com/mcz/taxi/TaxiActor.scala:21: not found: value Location[0m
+[0m[[31merror[0m] [0m    case Location => log.info("location")[0m
+[0m[[31merror[0m] [0m         ^[0m
+[0m[[31merror[0m] [0m6 errors found[0m
+[0m[[0mdebug[0m] [0mCompilation failed (CompilerInterface)[0m
+[0m[[31merror[0m] [0m(compile:[31mcompile[0m) Compilation failed[0m

@@ -1,0 +1,221 @@
+format version: 5
+output mode:
+1 items
+0 -> single
+output directories:
+1 items
+output dir -> /home/maczech/Development/workspace/scala/taxi/gps-system/target/scala-2.10/classes
+compile options:
+0 items
+javac options:
+0 items
+compiler version:
+1 items
+0 -> 2.10.4
+compile order:
+1 items
+0 -> Mixed
+name hashing:
+1 items
+0 -> true
+products:
+8 items
+/home/maczech/Development/workspace/scala/taxi/gps-system/src/main/scala/com/mcz/Gpssystem.scala -> /home/maczech/Development/workspace/scala/taxi/gps-system/target/scala-2.10/classes/com/mcz/Gpssystem$.class
+/home/maczech/Development/workspace/scala/taxi/gps-system/src/main/scala/com/mcz/Gpssystem.scala -> /home/maczech/Development/workspace/scala/taxi/gps-system/target/scala-2.10/classes/com/mcz/Gpssystem.class
+/home/maczech/Development/workspace/scala/taxi/gps-system/src/main/scala/com/mcz/gps/GPSActor.scala -> /home/maczech/Development/workspace/scala/taxi/gps-system/target/scala-2.10/classes/com/mcz/gps/GPSActor$$anonfun$receive$1.class
+/home/maczech/Development/workspace/scala/taxi/gps-system/src/main/scala/com/mcz/gps/GPSActor.scala -> /home/maczech/Development/workspace/scala/taxi/gps-system/target/scala-2.10/classes/com/mcz/gps/GPSActor.class
+/home/maczech/Development/workspace/scala/taxi/gps-system/src/main/scala/com/mcz/gps/message/Location.scala -> /home/maczech/Development/workspace/scala/taxi/gps-system/target/scala-2.10/classes/com/mcz/gps/message/Location$.class
+/home/maczech/Development/workspace/scala/taxi/gps-system/src/main/scala/com/mcz/gps/message/Location.scala -> /home/maczech/Development/workspace/scala/taxi/gps-system/target/scala-2.10/classes/com/mcz/gps/message/Location.class
+/home/maczech/Development/workspace/scala/taxi/gps-system/src/main/scala/com/mcz/gps/message/LocationRequest.scala -> /home/maczech/Development/workspace/scala/taxi/gps-system/target/scala-2.10/classes/com/mcz/gps/message/LocationRequest$.class
+/home/maczech/Development/workspace/scala/taxi/gps-system/src/main/scala/com/mcz/gps/message/LocationRequest.scala -> /home/maczech/Development/workspace/scala/taxi/gps-system/target/scala-2.10/classes/com/mcz/gps/message/LocationRequest.class
+binary dependencies:
+9 items
+/home/maczech/Development/workspace/scala/taxi/gps-system/src/main/scala/com/mcz/Gpssystem.scala -> /home/maczech/.sbt/boot/scala-2.10.4/lib/scala-library.jar
+/home/maczech/Development/workspace/scala/taxi/gps-system/src/main/scala/com/mcz/Gpssystem.scala -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
+/home/maczech/Development/workspace/scala/taxi/gps-system/src/main/scala/com/mcz/gps/GPSActor.scala -> /home/maczech/.ivy2/cache/com.typesafe.akka/akka-actor_2.10/jars/akka-actor_2.10-2.3.7.jar
+/home/maczech/Development/workspace/scala/taxi/gps-system/src/main/scala/com/mcz/gps/GPSActor.scala -> /home/maczech/.sbt/boot/scala-2.10.4/lib/scala-library.jar
+/home/maczech/Development/workspace/scala/taxi/gps-system/src/main/scala/com/mcz/gps/GPSActor.scala -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
+/home/maczech/Development/workspace/scala/taxi/gps-system/src/main/scala/com/mcz/gps/message/Location.scala -> /home/maczech/.sbt/boot/scala-2.10.4/lib/scala-library.jar
+/home/maczech/Development/workspace/scala/taxi/gps-system/src/main/scala/com/mcz/gps/message/Location.scala -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
+/home/maczech/Development/workspace/scala/taxi/gps-system/src/main/scala/com/mcz/gps/message/LocationRequest.scala -> /home/maczech/.sbt/boot/scala-2.10.4/lib/scala-library.jar
+/home/maczech/Development/workspace/scala/taxi/gps-system/src/main/scala/com/mcz/gps/message/LocationRequest.scala -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
+direct source dependencies:
+0 items
+direct external dependencies:
+0 items
+public inherited source dependencies:
+0 items
+public inherited external dependencies:
+0 items
+member reference internal dependencies:
+2 items
+/home/maczech/Development/workspace/scala/taxi/gps-system/src/main/scala/com/mcz/gps/GPSActor.scala -> /home/maczech/Development/workspace/scala/taxi/gps-system/src/main/scala/com/mcz/gps/message/Location.scala
+/home/maczech/Development/workspace/scala/taxi/gps-system/src/main/scala/com/mcz/gps/GPSActor.scala -> /home/maczech/Development/workspace/scala/taxi/gps-system/src/main/scala/com/mcz/gps/message/LocationRequest.scala
+member reference external dependencies:
+0 items
+inheritance internal dependencies:
+0 items
+inheritance external dependencies:
+0 items
+class names:
+8 items
+/home/maczech/Development/workspace/scala/taxi/gps-system/src/main/scala/com/mcz/Gpssystem.scala -> com.mcz.Gpssystem
+/home/maczech/Development/workspace/scala/taxi/gps-system/src/main/scala/com/mcz/Gpssystem.scala -> com.mcz.Gpssystem$
+/home/maczech/Development/workspace/scala/taxi/gps-system/src/main/scala/com/mcz/gps/GPSActor.scala -> com.mcz.gps.GPSActor
+/home/maczech/Development/workspace/scala/taxi/gps-system/src/main/scala/com/mcz/gps/GPSActor.scala -> com.mcz.gps.GPSActor$$anonfun$receive$1
+/home/maczech/Development/workspace/scala/taxi/gps-system/src/main/scala/com/mcz/gps/message/Location.scala -> com.mcz.gps.message.Location
+/home/maczech/Development/workspace/scala/taxi/gps-system/src/main/scala/com/mcz/gps/message/Location.scala -> com.mcz.gps.message.Location$
+/home/maczech/Development/workspace/scala/taxi/gps-system/src/main/scala/com/mcz/gps/message/LocationRequest.scala -> com.mcz.gps.message.LocationRequest
+/home/maczech/Development/workspace/scala/taxi/gps-system/src/main/scala/com/mcz/gps/message/LocationRequest.scala -> com.mcz.gps.message.LocationRequest$
+used names:
+97 items
+/home/maczech/Development/workspace/scala/taxi/gps-system/src/main/scala/com/mcz/Gpssystem.scala -> <init>
+/home/maczech/Development/workspace/scala/taxi/gps-system/src/main/scala/com/mcz/Gpssystem.scala -> App
+/home/maczech/Development/workspace/scala/taxi/gps-system/src/main/scala/com/mcz/Gpssystem.scala -> Gpssystem
+/home/maczech/Development/workspace/scala/taxi/gps-system/src/main/scala/com/mcz/Gpssystem.scala -> com
+/home/maczech/Development/workspace/scala/taxi/gps-system/src/main/scala/com/mcz/Gpssystem.scala -> mcz
+/home/maczech/Development/workspace/scala/taxi/gps-system/src/main/scala/com/mcz/Gpssystem.scala -> scala
+/home/maczech/Development/workspace/scala/taxi/gps-system/src/main/scala/com/mcz/gps/GPSActor.scala -> !
+/home/maczech/Development/workspace/scala/taxi/gps-system/src/main/scala/com/mcz/gps/GPSActor.scala -> <init>
+/home/maczech/Development/workspace/scala/taxi/gps-system/src/main/scala/com/mcz/gps/GPSActor.scala -> ==
+/home/maczech/Development/workspace/scala/taxi/gps-system/src/main/scala/com/mcz/gps/GPSActor.scala -> A1
+/home/maczech/Development/workspace/scala/taxi/gps-system/src/main/scala/com/mcz/gps/GPSActor.scala -> Actor
+/home/maczech/Development/workspace/scala/taxi/gps-system/src/main/scala/com/mcz/gps/GPSActor.scala -> ActorRef
+/home/maczech/Development/workspace/scala/taxi/gps-system/src/main/scala/com/mcz/gps/GPSActor.scala -> B1
+/home/maczech/Development/workspace/scala/taxi/gps-system/src/main/scala/com/mcz/gps/GPSActor.scala -> Date
+/home/maczech/Development/workspace/scala/taxi/gps-system/src/main/scala/com/mcz/gps/GPSActor.scala -> Function1
+/home/maczech/Development/workspace/scala/taxi/gps-system/src/main/scala/com/mcz/gps/GPSActor.scala -> GPSActor
+/home/maczech/Development/workspace/scala/taxi/gps-system/src/main/scala/com/mcz/gps/GPSActor.scala -> Location
+/home/maczech/Development/workspace/scala/taxi/gps-system/src/main/scala/com/mcz/gps/GPSActor.scala -> LocationRequest
+/home/maczech/Development/workspace/scala/taxi/gps-system/src/main/scala/com/mcz/gps/GPSActor.scala -> LogSource
+/home/maczech/Development/workspace/scala/taxi/gps-system/src/main/scala/com/mcz/gps/GPSActor.scala -> Logging
+/home/maczech/Development/workspace/scala/taxi/gps-system/src/main/scala/com/mcz/gps/GPSActor.scala -> Props
+/home/maczech/Development/workspace/scala/taxi/gps-system/src/main/scala/com/mcz/gps/GPSActor.scala -> actor
+/home/maczech/Development/workspace/scala/taxi/gps-system/src/main/scala/com/mcz/gps/GPSActor.scala -> actorRef2Scala
+/home/maczech/Development/workspace/scala/taxi/gps-system/src/main/scala/com/mcz/gps/GPSActor.scala -> akka
+/home/maczech/Development/workspace/scala/taxi/gps-system/src/main/scala/com/mcz/gps/GPSActor.scala -> apply
+/home/maczech/Development/workspace/scala/taxi/gps-system/src/main/scala/com/mcz/gps/GPSActor.scala -> asInstanceOf
+/home/maczech/Development/workspace/scala/taxi/gps-system/src/main/scala/com/mcz/gps/GPSActor.scala -> com
+/home/maczech/Development/workspace/scala/taxi/gps-system/src/main/scala/com/mcz/gps/GPSActor.scala -> context
+/home/maczech/Development/workspace/scala/taxi/gps-system/src/main/scala/com/mcz/gps/GPSActor.scala -> event
+/home/maczech/Development/workspace/scala/taxi/gps-system/src/main/scala/com/mcz/gps/GPSActor.scala -> fromActor
+/home/maczech/Development/workspace/scala/taxi/gps-system/src/main/scala/com/mcz/gps/GPSActor.scala -> gps
+/home/maczech/Development/workspace/scala/taxi/gps-system/src/main/scala/com/mcz/gps/GPSActor.scala -> java
+/home/maczech/Development/workspace/scala/taxi/gps-system/src/main/scala/com/mcz/gps/GPSActor.scala -> log
+/home/maczech/Development/workspace/scala/taxi/gps-system/src/main/scala/com/mcz/gps/GPSActor.scala -> mcz
+/home/maczech/Development/workspace/scala/taxi/gps-system/src/main/scala/com/mcz/gps/GPSActor.scala -> message
+/home/maczech/Development/workspace/scala/taxi/gps-system/src/main/scala/com/mcz/gps/GPSActor.scala -> package
+/home/maczech/Development/workspace/scala/taxi/gps-system/src/main/scala/com/mcz/gps/GPSActor.scala -> scala
+/home/maczech/Development/workspace/scala/taxi/gps-system/src/main/scala/com/mcz/gps/GPSActor.scala -> self
+/home/maczech/Development/workspace/scala/taxi/gps-system/src/main/scala/com/mcz/gps/GPSActor.scala -> sender
+/home/maczech/Development/workspace/scala/taxi/gps-system/src/main/scala/com/mcz/gps/GPSActor.scala -> system
+/home/maczech/Development/workspace/scala/taxi/gps-system/src/main/scala/com/mcz/gps/GPSActor.scala -> unchecked
+/home/maczech/Development/workspace/scala/taxi/gps-system/src/main/scala/com/mcz/gps/GPSActor.scala -> util
+/home/maczech/Development/workspace/scala/taxi/gps-system/src/main/scala/com/mcz/gps/GPSActor.scala -> warning
+/home/maczech/Development/workspace/scala/taxi/gps-system/src/main/scala/com/mcz/gps/message/Location.scala -> &&
+/home/maczech/Development/workspace/scala/taxi/gps-system/src/main/scala/com/mcz/gps/message/Location.scala -> <init>
+/home/maczech/Development/workspace/scala/taxi/gps-system/src/main/scala/com/mcz/gps/message/Location.scala -> ==
+/home/maczech/Development/workspace/scala/taxi/gps-system/src/main/scala/com/mcz/gps/message/Location.scala -> AbstractFunction3
+/home/maczech/Development/workspace/scala/taxi/gps-system/src/main/scala/com/mcz/gps/message/Location.scala -> Date
+/home/maczech/Development/workspace/scala/taxi/gps-system/src/main/scala/com/mcz/gps/message/Location.scala -> Location
+/home/maczech/Development/workspace/scala/taxi/gps-system/src/main/scala/com/mcz/gps/message/Location.scala -> Long
+/home/maczech/Development/workspace/scala/taxi/gps-system/src/main/scala/com/mcz/gps/message/Location.scala -> None
+/home/maczech/Development/workspace/scala/taxi/gps-system/src/main/scala/com/mcz/gps/message/Location.scala -> Product
+/home/maczech/Development/workspace/scala/taxi/gps-system/src/main/scala/com/mcz/gps/message/Location.scala -> ScalaRunTime
+/home/maczech/Development/workspace/scala/taxi/gps-system/src/main/scala/com/mcz/gps/message/Location.scala -> Serializable
+/home/maczech/Development/workspace/scala/taxi/gps-system/src/main/scala/com/mcz/gps/message/Location.scala -> Statics
+/home/maczech/Development/workspace/scala/taxi/gps-system/src/main/scala/com/mcz/gps/message/Location.scala -> _toString
+/home/maczech/Development/workspace/scala/taxi/gps-system/src/main/scala/com/mcz/gps/message/Location.scala -> anyHash
+/home/maczech/Development/workspace/scala/taxi/gps-system/src/main/scala/com/mcz/gps/message/Location.scala -> asInstanceOf
+/home/maczech/Development/workspace/scala/taxi/gps-system/src/main/scala/com/mcz/gps/message/Location.scala -> com
+/home/maczech/Development/workspace/scala/taxi/gps-system/src/main/scala/com/mcz/gps/message/Location.scala -> eq
+/home/maczech/Development/workspace/scala/taxi/gps-system/src/main/scala/com/mcz/gps/message/Location.scala -> finalizeHash
+/home/maczech/Development/workspace/scala/taxi/gps-system/src/main/scala/com/mcz/gps/message/Location.scala -> gps
+/home/maczech/Development/workspace/scala/taxi/gps-system/src/main/scala/com/mcz/gps/message/Location.scala -> isInstanceOf
+/home/maczech/Development/workspace/scala/taxi/gps-system/src/main/scala/com/mcz/gps/message/Location.scala -> java
+/home/maczech/Development/workspace/scala/taxi/gps-system/src/main/scala/com/mcz/gps/message/Location.scala -> latitude
+/home/maczech/Development/workspace/scala/taxi/gps-system/src/main/scala/com/mcz/gps/message/Location.scala -> longHash
+/home/maczech/Development/workspace/scala/taxi/gps-system/src/main/scala/com/mcz/gps/message/Location.scala -> longitude
+/home/maczech/Development/workspace/scala/taxi/gps-system/src/main/scala/com/mcz/gps/message/Location.scala -> mcz
+/home/maczech/Development/workspace/scala/taxi/gps-system/src/main/scala/com/mcz/gps/message/Location.scala -> message
+/home/maczech/Development/workspace/scala/taxi/gps-system/src/main/scala/com/mcz/gps/message/Location.scala -> mix
+/home/maczech/Development/workspace/scala/taxi/gps-system/src/main/scala/com/mcz/gps/message/Location.scala -> runtime
+/home/maczech/Development/workspace/scala/taxi/gps-system/src/main/scala/com/mcz/gps/message/Location.scala -> scala
+/home/maczech/Development/workspace/scala/taxi/gps-system/src/main/scala/com/mcz/gps/message/Location.scala -> timestamp
+/home/maczech/Development/workspace/scala/taxi/gps-system/src/main/scala/com/mcz/gps/message/Location.scala -> toString
+/home/maczech/Development/workspace/scala/taxi/gps-system/src/main/scala/com/mcz/gps/message/Location.scala -> typedProductIterator
+/home/maczech/Development/workspace/scala/taxi/gps-system/src/main/scala/com/mcz/gps/message/Location.scala -> util
+/home/maczech/Development/workspace/scala/taxi/gps-system/src/main/scala/com/mcz/gps/message/Location.scala -> ||
+/home/maczech/Development/workspace/scala/taxi/gps-system/src/main/scala/com/mcz/gps/message/LocationRequest.scala -> &&
+/home/maczech/Development/workspace/scala/taxi/gps-system/src/main/scala/com/mcz/gps/message/LocationRequest.scala -> <init>
+/home/maczech/Development/workspace/scala/taxi/gps-system/src/main/scala/com/mcz/gps/message/LocationRequest.scala -> ==
+/home/maczech/Development/workspace/scala/taxi/gps-system/src/main/scala/com/mcz/gps/message/LocationRequest.scala -> AbstractFunction0
+/home/maczech/Development/workspace/scala/taxi/gps-system/src/main/scala/com/mcz/gps/message/LocationRequest.scala -> LocationRequest
+/home/maczech/Development/workspace/scala/taxi/gps-system/src/main/scala/com/mcz/gps/message/LocationRequest.scala -> Product
+/home/maczech/Development/workspace/scala/taxi/gps-system/src/main/scala/com/mcz/gps/message/LocationRequest.scala -> ScalaRunTime
+/home/maczech/Development/workspace/scala/taxi/gps-system/src/main/scala/com/mcz/gps/message/LocationRequest.scala -> Serializable
+/home/maczech/Development/workspace/scala/taxi/gps-system/src/main/scala/com/mcz/gps/message/LocationRequest.scala -> _hashCode
+/home/maczech/Development/workspace/scala/taxi/gps-system/src/main/scala/com/mcz/gps/message/LocationRequest.scala -> _toString
+/home/maczech/Development/workspace/scala/taxi/gps-system/src/main/scala/com/mcz/gps/message/LocationRequest.scala -> asInstanceOf
+/home/maczech/Development/workspace/scala/taxi/gps-system/src/main/scala/com/mcz/gps/message/LocationRequest.scala -> com
+/home/maczech/Development/workspace/scala/taxi/gps-system/src/main/scala/com/mcz/gps/message/LocationRequest.scala -> gps
+/home/maczech/Development/workspace/scala/taxi/gps-system/src/main/scala/com/mcz/gps/message/LocationRequest.scala -> isInstanceOf
+/home/maczech/Development/workspace/scala/taxi/gps-system/src/main/scala/com/mcz/gps/message/LocationRequest.scala -> mcz
+/home/maczech/Development/workspace/scala/taxi/gps-system/src/main/scala/com/mcz/gps/message/LocationRequest.scala -> message
+/home/maczech/Development/workspace/scala/taxi/gps-system/src/main/scala/com/mcz/gps/message/LocationRequest.scala -> runtime
+/home/maczech/Development/workspace/scala/taxi/gps-system/src/main/scala/com/mcz/gps/message/LocationRequest.scala -> scala
+/home/maczech/Development/workspace/scala/taxi/gps-system/src/main/scala/com/mcz/gps/message/LocationRequest.scala -> toString
+/home/maczech/Development/workspace/scala/taxi/gps-system/src/main/scala/com/mcz/gps/message/LocationRequest.scala -> typedProductIterator
+product stamps:
+8 items
+/home/maczech/Development/workspace/scala/taxi/gps-system/target/scala-2.10/classes/com/mcz/Gpssystem$.class -> lastModified(1417994494000)
+/home/maczech/Development/workspace/scala/taxi/gps-system/target/scala-2.10/classes/com/mcz/Gpssystem.class -> lastModified(1417994494000)
+/home/maczech/Development/workspace/scala/taxi/gps-system/target/scala-2.10/classes/com/mcz/gps/GPSActor$$anonfun$receive$1.class -> lastModified(1417998050000)
+/home/maczech/Development/workspace/scala/taxi/gps-system/target/scala-2.10/classes/com/mcz/gps/GPSActor.class -> lastModified(1417998050000)
+/home/maczech/Development/workspace/scala/taxi/gps-system/target/scala-2.10/classes/com/mcz/gps/message/Location$.class -> lastModified(1417994069000)
+/home/maczech/Development/workspace/scala/taxi/gps-system/target/scala-2.10/classes/com/mcz/gps/message/Location.class -> lastModified(1417994069000)
+/home/maczech/Development/workspace/scala/taxi/gps-system/target/scala-2.10/classes/com/mcz/gps/message/LocationRequest$.class -> lastModified(1417994069000)
+/home/maczech/Development/workspace/scala/taxi/gps-system/target/scala-2.10/classes/com/mcz/gps/message/LocationRequest.class -> lastModified(1417994069000)
+source stamps:
+4 items
+/home/maczech/Development/workspace/scala/taxi/gps-system/src/main/scala/com/mcz/Gpssystem.scala -> hash(8321e10f9358f7f29f4d52860f873500835d71d7)
+/home/maczech/Development/workspace/scala/taxi/gps-system/src/main/scala/com/mcz/gps/GPSActor.scala -> hash(cf0361de0f5257e961410219125069b1a9c76b66)
+/home/maczech/Development/workspace/scala/taxi/gps-system/src/main/scala/com/mcz/gps/message/Location.scala -> hash(ff12906bcf66ba486630a3bbf9faa9f0f4393293)
+/home/maczech/Development/workspace/scala/taxi/gps-system/src/main/scala/com/mcz/gps/message/LocationRequest.scala -> hash(1adca57f2fbc93eef2e55f2fc008ca59f41a2136)
+binary stamps:
+3 items
+/home/maczech/.ivy2/cache/com.typesafe.akka/akka-actor_2.10/jars/akka-actor_2.10-2.3.7.jar -> lastModified(1415785894000)
+/home/maczech/.sbt/boot/scala-2.10.4/lib/scala-library.jar -> lastModified(1395179187000)
+/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar -> lastModified(1408801405000)
+class names:
+3 items
+/home/maczech/.ivy2/cache/com.typesafe.akka/akka-actor_2.10/jars/akka-actor_2.10-2.3.7.jar -> akka.actor.Actor
+/home/maczech/.sbt/boot/scala-2.10.4/lib/scala-library.jar -> scala.Serializable
+/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar -> java.lang.Object
+internal apis:
+4 items
+/home/maczech/Development/workspace/scala/taxi/gps-system/src/main/scala/com/mcz/Gpssystem.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHDMd+opAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAGnNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cP4kX7N0AAZub3RpZnlzcQB+AAzdrDWMdAAEd2FpdHNxAH4ADCOsZPh0AA0kYXNJbnN0YW5jZU9mc3EAfgAM6SWyYnQABmVxdWFsc3NxAH4ADHe75zt0AAxhc0luc3RhbmNlT2ZzcQB+AAz3h8kBdAAOZXhlY3V0aW9uU3RhcnRzcQB+AAzlqzfndAAMc3luY2hyb25pemVkc3EAfgAMysc6InQADSRpc0luc3RhbmNlT2ZzcQB+AAyp3Fc4dAAFX2FyZ3NzcQB+AAwNLGe2dAAEbWFpbnNxAH4ADCvayzR0AAhpbml0Q29kZXNxAH4ADNBs8Ul0AAlub3RpZnlBbGxzcQB+AAyM2tYmdAAMaXNJbnN0YW5jZU9mc3EAfgAMcApwc3QAAj09c3EAfgAMTQ75OHQABWNsb25lc3EAfgAM6TJ8ZXQACUdwc3N5c3RlbXNxAH4ADCTWhAt0AAh0b1N0cmluZ3NxAH4ADPHizi90AARhcmdzc3EAfgAMmhcKZXQAAiE9c3EAfgAMYdCsjHQACGdldENsYXNzc3EAfgAMhXP4t3QAAm5lc3EAfgAM7x3ofHQAAmVxc3EAfgAMONRrG3QAC2RlbGF5ZWRJbml0c3EAfgAMJ2l753QAAiMjc3EAfgAMQ+NkK3QACGZpbmFsaXplc3EAfgAMedPB2HQACGhhc2hDb2Rlc3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAAAXNyABN4c2J0aS5hcGkuQ2xhc3NMaWtlgzQcod+wl2wCAARMAA5kZWZpbml0aW9uVHlwZXQAGkx4c2J0aS9hcGkvRGVmaW5pdGlvblR5cGU7WwAQc2F2ZWRBbm5vdGF0aW9uc3QAE1tMamF2YS9sYW5nL1N0cmluZztMAAhzZWxmVHlwZXQAEEx4c2J0aS9hcGkvTGF6eTtMAAlzdHJ1Y3R1cmVxAH4AS3hyACF4c2J0aS5hcGkuUGFyYW1ldGVyaXplZERlZmluaXRpb275EW6x1VA84gIAAVsADnR5cGVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvVHlwZVBhcmFtZXRlcjt4cgAUeHNidGkuYXBpLkRlZmluaXRpb26HKhvocULjRgIABEwABmFjY2Vzc3QAEkx4c2J0aS9hcGkvQWNjZXNzO1sAC2Fubm90YXRpb25zdAAXW0x4c2J0aS9hcGkvQW5ub3RhdGlvbjtMAAltb2RpZmllcnN0ABVMeHNidGkvYXBpL01vZGlmaWVycztMAARuYW1lcQB+AA14cHNyABB4c2J0aS5hcGkuUHVibGljulg9rmwtYEICAAB4cgAQeHNidGkuYXBpLkFjY2Vzc91imvgdYzFIAgAAeHB1cgAXW0x4c2J0aS5hcGkuQW5ub3RhdGlvbjvrl+sZEPaNSAIAAHhwAAAAAHNyABN4c2J0aS5hcGkuTW9kaWZpZXJzxxETIWmc3CQCAAFCAAVmbGFnc3hwAHQAEWNvbS5tY3ouR3Bzc3lzdGVtdXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAGTW9kdWxldXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAHNyABN4c2J0aS5TYWZlTGF6eSRJbXBsUAIuk5eXQD8CAANaAAhiaXRtYXAkMEwAAl90dAASTGphdmEvbGFuZy9PYmplY3Q7TAAEZXZhbHQAEUxzY2FsYS9GdW5jdGlvbjA7eHIAFnhzYnRpLmFwaS5BYnN0cmFjdExhennTd7UBX7vnoAIAAHhwAHBzcgAgeHNidGkuU2FmZUxhenkkJGFub25mdW4kc3RyaWN0JDEAAAAAAAAAAAIAAUwAB3ZhbHVlJDFxAH4AZHhwc3IAE3hzYnRpLmFwaS5FbXB0eVR5cGW8/Z5GSTuJJAIAAHhyABR4c2J0aS5hcGkuU2ltcGxlVHlwZXJ4YoghI79AAgAAeHIADnhzYnRpLmFwaS5UeXBlP2rZIRZJqsoCAAB4cHNxAH4AYwBwc3EAfgBoc3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+AEtMAAlpbmhlcml0ZWRxAH4AS0wAB3BhcmVudHNxAH4AS3hxAH4AbHNxAH4AYwBwc3EAfgBodXEAfgBGAAAAAHNxAH4AYwBwc3EAfgBodXEAfgBGAAAAAXNyAA14c2J0aS5hcGkuRGVmUr6f4ny0NmkCAAJMAApyZXR1cm5UeXBldAAQTHhzYnRpL2FwaS9UeXBlO1sAD3ZhbHVlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1BhcmFtZXRlckxpc3Q7eHEAfgBMcQB+AFV1cQB+AFYAAAAAc3EAfgBYAHEAfgAhdXEAfgBbAAAAAHNyABR4c2J0aS5hcGkuUHJvamVjdGlvbvPSjVTpRaQtAgACTAACaWRxAH4ADUwABnByZWZpeHQAFkx4c2J0aS9hcGkvU2ltcGxlVHlwZTt4cQB+AGt0AARVbml0c3IAE3hzYnRpLmFwaS5TaW5nbGV0b278p1/4z1bkRgIAAUwABHBhdGh0ABBMeHNidGkvYXBpL1BhdGg7eHEAfgBrc3IADnhzYnRpLmFwaS5QYXRomz1cCM6lJ4QCAAFbAApjb21wb25lbnRzdAAaW0x4c2J0aS9hcGkvUGF0aENvbXBvbmVudDt4cHVyABpbTHhzYnRpLmFwaS5QYXRoQ29tcG9uZW50O0PaCXQtZxZ0AgAAeHAAAAACc3IADHhzYnRpLmFwaS5JZJgybIs3U8RAAgABTAACaWRxAH4ADXhyABd4c2J0aS5hcGkuUGF0aENvbXBvbmVudF+aIlsuhp+8AgAAeHB0AAVzY2FsYXNyAA54c2J0aS5hcGkuVGhpc9sJ7abMWkBcAgAAeHEAfgCMdXIAGltMeHNidGkuYXBpLlBhcmFtZXRlckxpc3Q79dM6HfKzcO4CAAB4cAAAAAFzcgAXeHNidGkuYXBpLlBhcmFtZXRlckxpc3TWxbwcZEl04wIAAloACmlzSW1wbGljaXRbAApwYXJhbWV0ZXJzdAAcW0x4c2J0aS9hcGkvTWV0aG9kUGFyYW1ldGVyO3hwAHVyABxbTHhzYnRpLmFwaS5NZXRob2RQYXJhbWV0ZXI7z7jFXaXdtW0CAAB4cAAAAAFzcgAZeHNidGkuYXBpLk1ldGhvZFBhcmFtZXRlch9FrhfTSbDqAgAEWgAKaGFzRGVmYXVsdEwACG1vZGlmaWVydAAdTHhzYnRpL2FwaS9QYXJhbWV0ZXJNb2RpZmllcjtMAARuYW1lcQB+AA1MAAN0cGVxAH4AeXhwAH5yABt4c2J0aS5hcGkuUGFyYW1ldGVyTW9kaWZpZXIAAAAAAAAAABIAAHhxAH4AXnQABVBsYWlucQB+ADFzcgAXeHNidGkuYXBpLlBhcmFtZXRlcml6ZWQWbO5pA8m7fwIAAkwACGJhc2VUeXBlcQB+AIBbAA10eXBlQXJndW1lbnRzdAARW0x4c2J0aS9hcGkvVHlwZTt4cQB+AGtzcQB+AH90AAVBcnJheXEAfgCFdXIAEVtMeHNidGkuYXBpLlR5cGU7dP+lWnv56UECAAB4cAAAAAFzcQB+AH90AAZTdHJpbmdzcQB+AINzcQB+AIZ1cQB+AIkAAAADc3EAfgCLdAAEamF2YXNxAH4Ai3QABGxhbmdxAH4AkHNxAH4AYwBwc3EAfgBodXEAfgCjAAAABHNxAH4Af3QAA0FwcHEAfgCFc3EAfgB/dAALRGVsYXllZEluaXRxAH4AhXNxAH4Af3QABk9iamVjdHEAfgCnc3EAfgB/dAADQW55cQB+AIV1cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAAAnNyABF4c2J0aS5hcGkuUGFja2FnZX5Zj/auzjlYAgABTAAEbmFtZXEAfgANeHB0AANjb21zcQB+ALt0AAdjb20ubWN6c3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFKJw7TqXVyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3RvcnlxAH4ADUwAD3NvdXJjZURpcmVjdG9yeXEAfgANeHB0AFMvaG9tZS9tYWN6ZWNoL0RldmVsb3BtZW50L3dvcmtzcGFjZS9zY2FsYS90YXhpL2dwcy1zeXN0ZW0vdGFyZ2V0L3NjYWxhLTIuMTAvY2xhc3Nlc3QAAS91cgACW0Ks8xf4BghU4AIAAHhwAAAAFIMh4Q+TWPfyn01Shg+HNQCDXXHX
+/home/maczech/Development/workspace/scala/taxi/gps-system/src/main/scala/com/mcz/gps/GPSActor.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHAJoWVZAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAACc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwzqs3HXQABHNlbGZzcQB+AAuHXqFRdAAHY29udGV4dHVxAH4ACQAAACRzcQB+AAvOVrxSdAAGbm90aWZ5c3EAfgALHU8TP3QAB1JlY2VpdmVzcQB+AAuVXyfsdAAEd2FpdHNxAH4ACzLXGg10AA0kYXNJbnN0YW5jZU9mc3EAfgALde1aJnQABmVxdWFsc3NxAH4AC3EgwMN0AAxhc0luc3RhbmNlT2ZzcQB+AAsbg8lidAAMc3luY2hyb25pemVkc3EAfgALpF68WnQADSRpc0luc3RhbmNlT2ZzcQB+AAvC3V6QdAAHcmVjZWl2ZXNxAH4AC9/JXLR0AApwcmVSZXN0YXJ0c3EAfgALxwJVF3QADWFyb3VuZFJlY2VpdmVzcQB+AAs+J5H1dAALcG9zdFJlc3RhcnRzcQB+AAtMLpIBdAAIcG9zdFN0b3BzcQB+AAs7f1n7dAAJbm90aWZ5QWxsc3EAfgALOe0EvXQAEWFyb3VuZFBvc3RSZXN0YXJ0c3EAfgALCWhyUnQADGlzSW5zdGFuY2VPZnNxAH4AC9I2l/p0ABBhcm91bmRQcmVSZXN0YXJ0c3EAfgALyT49MHQADmFyb3VuZFBvc3RTdG9wc3EAfgAL5LhdN3QABjxpbml0PnNxAH4AC0MHTf90AAhwcmVTdGFydHNxAH4AC2tLqRd0AAl1bmhhbmRsZWRzcQB+AAvq0og7dAACPT1zcQB+AAvajSZadAAFY2xvbmVzcQB+AAvM9K3udAAIR1BTQWN0b3JzcQB+AAsO7yFsdAAGc2VuZGVyc3EAfgALEKN+0XQACHRvU3RyaW5nc3EAfgAL0rw9MXQAAiE9c3EAfgALv5BrgHQACGdldENsYXNzc3EAfgALtyHsQHQAAm5lc3EAfgALVeGA53QAEnN1cGVydmlzb3JTdHJhdGVneXNxAH4ACxQg+rB0AAJlcXNxAH4AC1lUQBF0AANsb2dzcQB+AAtsXO8KdAACIyNzcQB+AAuqjZWddAAIZmluYWxpemVzcQB+AAt6OBLbdAAIaGFzaENvZGVzcQB+AAuxj+EldAAOYXJvdW5kUHJlU3RhcnRzcgATeHNidGkuYXBpLlNvdXJjZUFQSblep/kpIzikAgACWwALZGVmaW5pdGlvbnN0ABdbTHhzYnRpL2FwaS9EZWZpbml0aW9uO1sACHBhY2thZ2VzdAAUW0x4c2J0aS9hcGkvUGFja2FnZTt4cHVyABdbTHhzYnRpLmFwaS5EZWZpbml0aW9uO4jJXOe0414OAgAAeHAAAAABc3IAE3hzYnRpLmFwaS5DbGFzc0xpa2WDNByh37CXbAIABEwADmRlZmluaXRpb25UeXBldAAaTHhzYnRpL2FwaS9EZWZpbml0aW9uVHlwZTtbABBzYXZlZEFubm90YXRpb25zdAATW0xqYXZhL2xhbmcvU3RyaW5nO0wACHNlbGZUeXBldAAQTHhzYnRpL2FwaS9MYXp5O0wACXN0cnVjdHVyZXEAfgBjeHIAIXhzYnRpLmFwaS5QYXJhbWV0ZXJpemVkRGVmaW5pdGlvbvkRbrHVUDziAgABWwAOdHlwZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9UeXBlUGFyYW1ldGVyO3hyABR4c2J0aS5hcGkuRGVmaW5pdGlvbocqG+hxQuNGAgAETAAGYWNjZXNzdAASTHhzYnRpL2FwaS9BY2Nlc3M7WwALYW5ub3RhdGlvbnN0ABdbTHhzYnRpL2FwaS9Bbm5vdGF0aW9uO0wACW1vZGlmaWVyc3QAFUx4c2J0aS9hcGkvTW9kaWZpZXJzO0wABG5hbWVxAH4ADHhwc3IAEHhzYnRpLmFwaS5QdWJsaWO6WD2ubC1gQgIAAHhyABB4c2J0aS5hcGkuQWNjZXNz3WKa+B1jMUgCAAB4cHVyABdbTHhzYnRpLmFwaS5Bbm5vdGF0aW9uO+uX6xkQ9o1IAgAAeHAAAAAAc3IAE3hzYnRpLmFwaS5Nb2RpZmllcnPHERMhaZzcJAIAAUIABWZsYWdzeHAAdAAUY29tLm1jei5ncHMuR1BTQWN0b3J1cgAaW0x4c2J0aS5hcGkuVHlwZVBhcmFtZXRlcjvZbSYPKJ3ytgIAAHhwAAAAAH5yABh4c2J0aS5hcGkuRGVmaW5pdGlvblR5cGUAAAAAAAAAABIAAHhyAA5qYXZhLmxhbmcuRW51bQAAAAAAAAAAEgAAeHB0AAhDbGFzc0RlZnVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJW5+kde0cCAAB4cAAAAABzcgATeHNidGkuU2FmZUxhenkkSW1wbFACLpOXl0A/AgADWgAIYml0bWFwJDBMAAJfdHQAEkxqYXZhL2xhbmcvT2JqZWN0O0wABGV2YWx0ABFMc2NhbGEvRnVuY3Rpb24wO3hyABZ4c2J0aS5hcGkuQWJzdHJhY3RMYXp503e1AV+756ACAAB4cAFzcgATeHNidGkuYXBpLkVtcHR5VHlwZbz9nkZJO4kkAgAAeHIAFHhzYnRpLmFwaS5TaW1wbGVUeXBlcnhiiCEjv0ACAAB4cgAOeHNidGkuYXBpLlR5cGU/atkhFkmqygIAAHhwcHNxAH4AewFzcgATeHNidGkuYXBpLlN0cnVjdHVyZamq+YCTb9gAAgADTAAIZGVjbGFyZWRxAH4AY0wACWluaGVyaXRlZHEAfgBjTAAHcGFyZW50c3EAfgBjeHEAfgCCc3EAfgB7AXVxAH4AXgAAAABwc3EAfgB7AXVxAH4AXgAAAABwc3EAfgB7AXVyABFbTHhzYnRpLmFwaS5UeXBlO3T/pVp7+elBAgAAeHAAAAADc3IAFHhzYnRpLmFwaS5Qcm9qZWN0aW9u89KNVOlFpC0CAAJMAAJpZHEAfgAMTAAGcHJlZml4dAAWTHhzYnRpL2FwaS9TaW1wbGVUeXBlO3hxAH4AgXQABUFjdG9yc3IAE3hzYnRpLmFwaS5TaW5nbGV0b278p1/4z1bkRgIAAUwABHBhdGh0ABBMeHNidGkvYXBpL1BhdGg7eHEAfgCBc3IADnhzYnRpLmFwaS5QYXRomz1cCM6lJ4QCAAFbAApjb21wb25lbnRzdAAaW0x4c2J0aS9hcGkvUGF0aENvbXBvbmVudDt4cHVyABpbTHhzYnRpLmFwaS5QYXRoQ29tcG9uZW50O0PaCXQtZxZ0AgAAeHAAAAADc3IADHhzYnRpLmFwaS5JZJgybIs3U8RAAgABTAACaWRxAH4ADHhyABd4c2J0aS5hcGkuUGF0aENvbXBvbmVudF+aIlsuhp+8AgAAeHB0AARha2thc3EAfgCadAAFYWN0b3JzcgAOeHNidGkuYXBpLlRoaXPbCe2mzFpAXAIAAHhxAH4Am3NxAH4AjnQABk9iamVjdHNxAH4AknNxAH4AlXVxAH4AmAAAAANzcQB+AJp0AARqYXZhc3EAfgCadAAEbGFuZ3EAfgChc3EAfgCOdAADQW55c3EAfgCSc3EAfgCVdXEAfgCYAAAAAnNxAH4AmnQABXNjYWxhcQB+AKFwcHVyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAADc3IAEXhzYnRpLmFwaS5QYWNrYWdlflmP9q7OOVgCAAFMAARuYW1lcQB+AAx4cHQAC2NvbS5tY3ouZ3Bzc3EAfgC0dAADY29tc3EAfgC0dAAHY29tLm1jenNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABSidFGhB1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5cQB+AAxMAA9zb3VyY2VEaXJlY3RvcnlxAH4ADHhwdABTL2hvbWUvbWFjemVjaC9EZXZlbG9wbWVudC93b3Jrc3BhY2Uvc2NhbGEvdGF4aS9ncHMtc3lzdGVtL3RhcmdldC9zY2FsYS0yLjEwL2NsYXNzZXN0AAEvdXIAAltCrPMX+AYIVOACAAB4cAAAABTPA2HeD1JX6WFBAhkSUGmxqcdrZg==
+/home/maczech/Development/workspace/scala/taxi/gps-system/src/main/scala/com/mcz/gps/message/Location.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHBr6BX6AHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAIXNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cCtSJy50AAZub3RpZnlzcQB+AAzOKg6NdAAITG9jYXRpb25zcQB+AAwJMIfedAAEd2FpdHNxAH4ADPN4mYp0AA5jb3B5JGRlZmF1bHQkMnNxAH4ADKe0g6B0AA0kYXNJbnN0YW5jZU9mc3EAfgAM1SLu9nQACXRpbWVzdGFtcHNxAH4ADApGHKF0AAhsYXRpdHVkZXNxAH4ADMrTaeN0AAxwcm9kdWN0QXJpdHlzcQB+AAwmHIkedAAGZXF1YWxzc3EAfgAMfF9GGHQADGFzSW5zdGFuY2VPZnNxAH4ADL6aa3x0AAxzeW5jaHJvbml6ZWRzcQB+AAyyYNjpdAANJGlzSW5zdGFuY2VPZnNxAH4ADL++w2J0AAhjYW5FcXVhbHNxAH4ADMMqXDV0AA1wcm9kdWN0UHJlZml4c3EAfgAMPiKSPXQACW5vdGlmeUFsbHNxAH4ADCQ0yBN0AAlsb25naXR1ZGVzcQB+AAwR3iUSdAAMaXNJbnN0YW5jZU9mc3EAfgAMXKHmgnQABjxpbml0PnNxAH4ADIFohIl0AAI9PXNxAH4ADHq22g90AAVjbG9uZXNxAH4ADOn7ZAR0AA5jb3B5JGRlZmF1bHQkM3NxAH4ADNAgnWF0AARjb3B5c3EAfgAM4rXLTHQACHRvU3RyaW5nc3EAfgAMhl+WW3QAAiE9c3EAfgAMr6NvIXQACGdldENsYXNzc3EAfgAM0U625XQADmNvcHkkZGVmYXVsdCQxc3EAfgAMLbeOWXQAAm5lc3EAfgAMOa/v4nQAAmVxc3EAfgAMVO+tv3QAD3Byb2R1Y3RJdGVyYXRvcnNxAH4ADDwZM9h0AAIjI3NxAH4ADGSwk+B0AAhmaW5hbGl6ZXNxAH4ADJRggox0AA5wcm9kdWN0RWxlbWVudHNxAH4ADL+zk/10AAhoYXNoQ29kZXNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAAFzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+AFl4cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXEAfgANeHBzcgAQeHNidGkuYXBpLlB1YmxpY7pYPa5sLWBCAgAAeHIAEHhzYnRpLmFwaS5BY2Nlc3PdYpr4HWMxSAIAAHhwdXIAF1tMeHNidGkuYXBpLkFubm90YXRpb24765frGRD2jUgCAAB4cAAAAABzcgATeHNidGkuYXBpLk1vZGlmaWVyc8cREyFpnNwkAgABQgAFZmxhZ3N4cAB0ABxjb20ubWN6Lmdwcy5tZXNzYWdlLkxvY2F0aW9udXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAIQ2xhc3NEZWZ1cgATW0xqYXZhLmxhbmcuU3RyaW5nO63SVufpHXtHAgAAeHAAAAAAc3IAE3hzYnRpLlNhZmVMYXp5JEltcGxQAi6Tl5dAPwIAA1oACGJpdG1hcCQwTAACX3R0ABJMamF2YS9sYW5nL09iamVjdDtMAARldmFsdAARTHNjYWxhL0Z1bmN0aW9uMDt4cgAWeHNidGkuYXBpLkFic3RyYWN0TGF6edN3tQFfu+egAgAAeHAAcHNyACB4c2J0aS5TYWZlTGF6eSQkYW5vbmZ1biRzdHJpY3QkMQAAAAAAAAAAAgABTAAHdmFsdWUkMXEAfgByeHBzcgATeHNidGkuYXBpLkVtcHR5VHlwZbz9nkZJO4kkAgAAeHIAFHhzYnRpLmFwaS5TaW1wbGVUeXBlcnhiiCEjv0ACAAB4cgAOeHNidGkuYXBpLlR5cGU/atkhFkmqygIAAHhwc3EAfgBxAHBzcQB+AHZzcgATeHNidGkuYXBpLlN0cnVjdHVyZamq+YCTb9gAAgADTAAIZGVjbGFyZWRxAH4AWUwACWluaGVyaXRlZHEAfgBZTAAHcGFyZW50c3EAfgBZeHEAfgB6c3EAfgBxAHBzcQB+AHZ1cQB+AFQAAAAAc3EAfgBxAHBzcQB+AHZ1cQB+AFQAAAAAc3EAfgBxAHBzcQB+AHZ1cgARW0x4c2J0aS5hcGkuVHlwZTt0/6Vae/npQQIAAHhwAAAABnNyABR4c2J0aS5hcGkuUHJvamVjdGlvbvPSjVTpRaQtAgACTAACaWRxAH4ADUwABnByZWZpeHQAFkx4c2J0aS9hcGkvU2ltcGxlVHlwZTt4cQB+AHl0AAxTZXJpYWxpemFibGVzcgATeHNidGkuYXBpLlNpbmdsZXRvbvynX/jPVuRGAgABTAAEcGF0aHQAEEx4c2J0aS9hcGkvUGF0aDt4cQB+AHlzcgAOeHNidGkuYXBpLlBhdGibPVwIzqUnhAIAAVsACmNvbXBvbmVudHN0ABpbTHhzYnRpL2FwaS9QYXRoQ29tcG9uZW50O3hwdXIAGltMeHNidGkuYXBpLlBhdGhDb21wb25lbnQ7Q9oJdC1nFnQCAAB4cAAAAAJzcgAMeHNidGkuYXBpLklkmDJsizdTxEACAAFMAAJpZHEAfgANeHIAF3hzYnRpLmFwaS5QYXRoQ29tcG9uZW50X5oiWy6Gn7wCAAB4cHQABXNjYWxhc3IADnhzYnRpLmFwaS5UaGlz2wntpsxaQFwCAAB4cQB+AJdzcQB+AIpxAH4AjXNxAH4AjnNxAH4AkXVxAH4AlAAAAANzcQB+AJZ0AARqYXZhc3EAfgCWdAACaW9xAH4Am3NxAH4AinQAB1Byb2R1Y3RxAH4AkHNxAH4AinQABkVxdWFsc3EAfgCQc3EAfgCKdAAGT2JqZWN0c3EAfgCOc3EAfgCRdXEAfgCUAAAAA3NxAH4AlnEAfgChc3EAfgCWdAAEbGFuZ3EAfgCbc3EAfgCKdAADQW55cQB+AJB1cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAABHNyABF4c2J0aS5hcGkuUGFja2FnZX5Zj/auzjlYAgABTAAEbmFtZXEAfgANeHB0ABNjb20ubWN6Lmdwcy5tZXNzYWdlc3EAfgC0dAALY29tLm1jei5ncHNzcQB+ALR0AANjb21zcQB+ALR0AAdjb20ubWN6c3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFKJwhceHVyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3RvcnlxAH4ADUwAD3NvdXJjZURpcmVjdG9yeXEAfgANeHB0AFMvaG9tZS9tYWN6ZWNoL0RldmVsb3BtZW50L3dvcmtzcGFjZS9zY2FsYS90YXhpL2dwcy1zeXN0ZW0vdGFyZ2V0L3NjYWxhLTIuMTAvY2xhc3Nlc3QAAS91cgACW0Ks8xf4BghU4AIAAHhwAAAAFP8SkGvPZrpIZjCju/n6qfD0OTKT
+/home/maczech/Development/workspace/scala/taxi/gps-system/src/main/scala/com/mcz/gps/message/LocationRequest.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHBAMqaHAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAG3NyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cDTK1VB0AAZub3RpZnlzcQB+AAzC0FLcdAAEd2FpdHNxAH4ADL9+a9x0AA0kYXNJbnN0YW5jZU9mc3EAfgAMXn3DP3QADHByb2R1Y3RBcml0eXNxAH4ADAeKMkZ0AAZlcXVhbHNzcQB+AAxav0dzdAAMYXNJbnN0YW5jZU9mc3EAfgAMiqa0CnQADHN5bmNocm9uaXplZHNxAH4ADKtTLQ50AA0kaXNJbnN0YW5jZU9mc3EAfgAMxamXkHQACGNhbkVxdWFsc3EAfgAM6gW5bXQAD0xvY2F0aW9uUmVxdWVzdHNxAH4ADC90akV0AA1wcm9kdWN0UHJlZml4c3EAfgAML4oTt3QACW5vdGlmeUFsbHNxAH4ADBjPE/R0AAxpc0luc3RhbmNlT2ZzcQB+AAyhTw6VdAAGPGluaXQ+c3EAfgAMK64+BnQAAj09c3EAfgAMMuJpZnQABWNsb25lc3EAfgAMV/7UQXQABGNvcHlzcQB+AAzjZV6rdAAIdG9TdHJpbmdzcQB+AAye7tJPdAACIT1zcQB+AAzv84WddAAIZ2V0Q2xhc3NzcQB+AAwOAMNqdAACbmVzcQB+AAwoh/URdAACZXFzcQB+AAzubYGNdAAPcHJvZHVjdEl0ZXJhdG9yc3EAfgAMV86XyHQAAiMjc3EAfgAMq9I9wXQACGZpbmFsaXplc3EAfgAMPVQ4IHQADnByb2R1Y3RFbGVtZW50c3EAfgAM7IsIHXQACGhhc2hDb2Rlc3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAAAXNyABN4c2J0aS5hcGkuQ2xhc3NMaWtlgzQcod+wl2wCAARMAA5kZWZpbml0aW9uVHlwZXQAGkx4c2J0aS9hcGkvRGVmaW5pdGlvblR5cGU7WwAQc2F2ZWRBbm5vdGF0aW9uc3QAE1tMamF2YS9sYW5nL1N0cmluZztMAAhzZWxmVHlwZXQAEEx4c2J0aS9hcGkvTGF6eTtMAAlzdHJ1Y3R1cmVxAH4ATXhyACF4c2J0aS5hcGkuUGFyYW1ldGVyaXplZERlZmluaXRpb275EW6x1VA84gIAAVsADnR5cGVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvVHlwZVBhcmFtZXRlcjt4cgAUeHNidGkuYXBpLkRlZmluaXRpb26HKhvocULjRgIABEwABmFjY2Vzc3QAEkx4c2J0aS9hcGkvQWNjZXNzO1sAC2Fubm90YXRpb25zdAAXW0x4c2J0aS9hcGkvQW5ub3RhdGlvbjtMAAltb2RpZmllcnN0ABVMeHNidGkvYXBpL01vZGlmaWVycztMAARuYW1lcQB+AA14cHNyABB4c2J0aS5hcGkuUHVibGljulg9rmwtYEICAAB4cgAQeHNidGkuYXBpLkFjY2Vzc91imvgdYzFIAgAAeHB1cgAXW0x4c2J0aS5hcGkuQW5ub3RhdGlvbjvrl+sZEPaNSAIAAHhwAAAAAHNyABN4c2J0aS5hcGkuTW9kaWZpZXJzxxETIWmc3CQCAAFCAAVmbGFnc3hwAHQAI2NvbS5tY3ouZ3BzLm1lc3NhZ2UuTG9jYXRpb25SZXF1ZXN0dXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAIQ2xhc3NEZWZ1cgATW0xqYXZhLmxhbmcuU3RyaW5nO63SVufpHXtHAgAAeHAAAAAAc3IAE3hzYnRpLlNhZmVMYXp5JEltcGxQAi6Tl5dAPwIAA1oACGJpdG1hcCQwTAACX3R0ABJMamF2YS9sYW5nL09iamVjdDtMAARldmFsdAARTHNjYWxhL0Z1bmN0aW9uMDt4cgAWeHNidGkuYXBpLkFic3RyYWN0TGF6edN3tQFfu+egAgAAeHAAcHNyACB4c2J0aS5TYWZlTGF6eSQkYW5vbmZ1biRzdHJpY3QkMQAAAAAAAAAAAgABTAAHdmFsdWUkMXEAfgBmeHBzcgATeHNidGkuYXBpLkVtcHR5VHlwZbz9nkZJO4kkAgAAeHIAFHhzYnRpLmFwaS5TaW1wbGVUeXBlcnhiiCEjv0ACAAB4cgAOeHNidGkuYXBpLlR5cGU/atkhFkmqygIAAHhwc3EAfgBlAHBzcQB+AGpzcgATeHNidGkuYXBpLlN0cnVjdHVyZamq+YCTb9gAAgADTAAIZGVjbGFyZWRxAH4ATUwACWluaGVyaXRlZHEAfgBNTAAHcGFyZW50c3EAfgBNeHEAfgBuc3EAfgBlAHBzcQB+AGp1cQB+AEgAAAAAc3EAfgBlAHBzcQB+AGp1cQB+AEgAAAAAc3EAfgBlAHBzcQB+AGp1cgARW0x4c2J0aS5hcGkuVHlwZTt0/6Vae/npQQIAAHhwAAAABnNyABR4c2J0aS5hcGkuUHJvamVjdGlvbvPSjVTpRaQtAgACTAACaWRxAH4ADUwABnByZWZpeHQAFkx4c2J0aS9hcGkvU2ltcGxlVHlwZTt4cQB+AG10AAxTZXJpYWxpemFibGVzcgATeHNidGkuYXBpLlNpbmdsZXRvbvynX/jPVuRGAgABTAAEcGF0aHQAEEx4c2J0aS9hcGkvUGF0aDt4cQB+AG1zcgAOeHNidGkuYXBpLlBhdGibPVwIzqUnhAIAAVsACmNvbXBvbmVudHN0ABpbTHhzYnRpL2FwaS9QYXRoQ29tcG9uZW50O3hwdXIAGltMeHNidGkuYXBpLlBhdGhDb21wb25lbnQ7Q9oJdC1nFnQCAAB4cAAAAAJzcgAMeHNidGkuYXBpLklkmDJsizdTxEACAAFMAAJpZHEAfgANeHIAF3hzYnRpLmFwaS5QYXRoQ29tcG9uZW50X5oiWy6Gn7wCAAB4cHQABXNjYWxhc3IADnhzYnRpLmFwaS5UaGlz2wntpsxaQFwCAAB4cQB+AItzcQB+AH5xAH4AgXNxAH4AgnNxAH4AhXVxAH4AiAAAAANzcQB+AIp0AARqYXZhc3EAfgCKdAACaW9xAH4Aj3NxAH4AfnQAB1Byb2R1Y3RxAH4AhHNxAH4AfnQABkVxdWFsc3EAfgCEc3EAfgB+dAAGT2JqZWN0c3EAfgCCc3EAfgCFdXEAfgCIAAAAA3NxAH4AinEAfgCVc3EAfgCKdAAEbGFuZ3EAfgCPc3EAfgB+dAADQW55cQB+AIR1cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAABHNyABF4c2J0aS5hcGkuUGFja2FnZX5Zj/auzjlYAgABTAAEbmFtZXEAfgANeHB0ABNjb20ubWN6Lmdwcy5tZXNzYWdlc3EAfgCodAALY29tLm1jei5ncHNzcQB+AKh0AANjb21zcQB+AKh0AAdjb20ubWN6c3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFKJwhceHVyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3RvcnlxAH4ADUwAD3NvdXJjZURpcmVjdG9yeXEAfgANeHB0AFMvaG9tZS9tYWN6ZWNoL0RldmVsb3BtZW50L3dvcmtzcGFjZS9zY2FsYS90YXhpL2dwcy1zeXN0ZW0vdGFyZ2V0L3NjYWxhLTIuMTAvY2xhc3Nlc3QAAS91cgACW0Ks8xf4BghU4AIAAHhwAAAAFBrcpX8vvJPu8uVfL8AIyln0GiE2
+external apis:
+0 items
+source infos:
+4 items
+/home/maczech/Development/workspace/scala/taxi/gps-system/src/main/scala/com/mcz/Gpssystem.scala -> 
+AAAAAAAAAAA=
+/home/maczech/Development/workspace/scala/taxi/gps-system/src/main/scala/com/mcz/gps/GPSActor.scala -> 
+AAAAAAAAAAA=
+/home/maczech/Development/workspace/scala/taxi/gps-system/src/main/scala/com/mcz/gps/message/Location.scala -> 
+AAAAAAAAAAA=
+/home/maczech/Development/workspace/scala/taxi/gps-system/src/main/scala/com/mcz/gps/message/LocationRequest.scala -> 
+AAAAAAAAAAEAAAEAAAADABpjYXNlIGNsYXNzIExvY2F0aW9uUmVxdWVzdAEAAAA3AQAAABoBABogICAgICAgICAgICAgICAgICAgICAgICAgIAEAci9ob21lL21hY3plY2gvRGV2ZWxvcG1lbnQvd29ya3NwYWNlL3NjYWxhL3RheGkvZ3BzLXN5c3RlbS9zcmMvbWFpbi9zY2FsYS9jb20vbWN6L2dwcy9tZXNzYWdlL0xvY2F0aW9uUmVxdWVzdC5zY2FsYQEAci9ob21lL21hY3plY2gvRGV2ZWxvcG1lbnQvd29ya3NwYWNlL3NjYWxhL3RheGkvZ3BzLXN5c3RlbS9zcmMvbWFpbi9zY2FsYS9jb20vbWN6L2dwcy9tZXNzYWdlL0xvY2F0aW9uUmVxdWVzdC5zY2FsYQCAY2FzZSBjbGFzc2VzIHdpdGhvdXQgYSBwYXJhbWV0ZXIgbGlzdCBoYXZlIGJlZW4gZGVwcmVjYXRlZDsKdXNlIGVpdGhlciBjYXNlIG9iamVjdHMgb3IgY2FzZSBjbGFzc2VzIHdpdGggYCgpJyBhcyBwYXJhbWV0ZXIgbGlzdC4B
+compilations:
+3 items
+0 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABSicIXHh1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAUy9ob21lL21hY3plY2gvRGV2ZWxvcG1lbnQvd29ya3NwYWNlL3NjYWxhL3RheGkvZ3BzLXN5c3RlbS90YXJnZXQvc2NhbGEtMi4xMC9jbGFzc2VzdAABLw==
+1 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABSicO06l1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAUy9ob21lL21hY3plY2gvRGV2ZWxvcG1lbnQvd29ya3NwYWNlL3NjYWxhL3RheGkvZ3BzLXN5c3RlbS90YXJnZXQvc2NhbGEtMi4xMC9jbGFzc2VzdAABLw==
+2 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABSidFGhB1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAUy9ob21lL21hY3plY2gvRGV2ZWxvcG1lbnQvd29ya3NwYWNlL3NjYWxhL3RheGkvZ3BzLXN5c3RlbS90YXJnZXQvc2NhbGEtMi4xMC9jbGFzc2VzdAABLw==

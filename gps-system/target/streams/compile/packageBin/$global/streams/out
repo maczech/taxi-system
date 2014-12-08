@@ -1,0 +1,27 @@
+[0m[[0minfo[0m] [0mPackaging /home/maczech/Development/workspace/scala/taxi/gps-system/target/scala-2.10/gps-system_2.10-0.1-SNAPSHOT.jar ...[0m
+[0m[[0mdebug[0m] [0mInput file mappings:[0m
+[0m[[0mdebug[0m] [0m	com/mcz/Gpssystem$.class[0m
+[0m[[0mdebug[0m] [0m	  /home/maczech/Development/workspace/scala/taxi/gps-system/target/scala-2.10/classes/com/mcz/Gpssystem$.class[0m
+[0m[[0mdebug[0m] [0m	com/mcz/gps/message/LocationRequest.class[0m
+[0m[[0mdebug[0m] [0m	  /home/maczech/Development/workspace/scala/taxi/gps-system/target/scala-2.10/classes/com/mcz/gps/message/LocationRequest.class[0m
+[0m[[0mdebug[0m] [0m	com[0m
+[0m[[0mdebug[0m] [0m	  /home/maczech/Development/workspace/scala/taxi/gps-system/target/scala-2.10/classes/com[0m
+[0m[[0mdebug[0m] [0m	com/mcz[0m
+[0m[[0mdebug[0m] [0m	  /home/maczech/Development/workspace/scala/taxi/gps-system/target/scala-2.10/classes/com/mcz[0m
+[0m[[0mdebug[0m] [0m	com/mcz/gps/message/Location.class[0m
+[0m[[0mdebug[0m] [0m	  /home/maczech/Development/workspace/scala/taxi/gps-system/target/scala-2.10/classes/com/mcz/gps/message/Location.class[0m
+[0m[[0mdebug[0m] [0m	com/mcz/gps/message/LocationRequest$.class[0m
+[0m[[0mdebug[0m] [0m	  /home/maczech/Development/workspace/scala/taxi/gps-system/target/scala-2.10/classes/com/mcz/gps/message/LocationRequest$.class[0m
+[0m[[0mdebug[0m] [0m	com/mcz/gps/GPSActor.class[0m
+[0m[[0mdebug[0m] [0m	  /home/maczech/Development/workspace/scala/taxi/gps-system/target/scala-2.10/classes/com/mcz/gps/GPSActor.class[0m
+[0m[[0mdebug[0m] [0m	com/mcz/gps/message/Location$.class[0m
+[0m[[0mdebug[0m] [0m	  /home/maczech/Development/workspace/scala/taxi/gps-system/target/scala-2.10/classes/com/mcz/gps/message/Location$.class[0m
+[0m[[0mdebug[0m] [0m	com/mcz/Gpssystem.class[0m
+[0m[[0mdebug[0m] [0m	  /home/maczech/Development/workspace/scala/taxi/gps-system/target/scala-2.10/classes/com/mcz/Gpssystem.class[0m
+[0m[[0mdebug[0m] [0m	com/mcz/gps/message[0m
+[0m[[0mdebug[0m] [0m	  /home/maczech/Development/workspace/scala/taxi/gps-system/target/scala-2.10/classes/com/mcz/gps/message[0m
+[0m[[0mdebug[0m] [0m	com/mcz/gps[0m
+[0m[[0mdebug[0m] [0m	  /home/maczech/Development/workspace/scala/taxi/gps-system/target/scala-2.10/classes/com/mcz/gps[0m
+[0m[[0mdebug[0m] [0m	com/mcz/gps/GPSActor$$anonfun$receive$1.class[0m
+[0m[[0mdebug[0m] [0m	  /home/maczech/Development/workspace/scala/taxi/gps-system/target/scala-2.10/classes/com/mcz/gps/GPSActor$$anonfun$receive$1.class[0m
+[0m[[0minfo[0m] [0mDone packaging.[0m
