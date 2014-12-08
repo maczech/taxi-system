@@ -5,24 +5,29 @@ import akka.event.Logging
 import com.mcz.gps.message.Coordinate
 import com.mcz.management.message.Location
 import scala.concurrent.Future
+import akka.actor.Props
 
-class ManagementCenterActor extends Actor {
+object ManagementCenterActor {
+  val managementCenter: ManagementCenterAdaptor = new ManagementCenterAdaptor
+  def create(): Props = Props(new ManagementCenterActor(managementCenter))
+}
+
+class ManagementCenterActor(val managementCenter: ManagementCenterAdaptor) extends Actor {
 
   val log = Logging(context.system, this)
-  val managementCenter: ManagementCenterAdaptor = new ManagementCenterAdaptor
+
   def receive = {
-	  
     case location: Location => handleLocation(location)
     case _ => log.warning("Management Center Actor received unknown message")
   }
 
-  def handleLocation(location:Location) {
+  def handleLocation(location: Location) {
     import context.dispatcher
     Future {
       managementCenter.logPosition(location)
-    }.onFailure{
-      case e: Exception => log.error("Exception during location reporting "+e )
+    }.onFailure {
+      case e: Exception => log.error("Exception during location reporting " + e)
     }
   }
-  
+
 }

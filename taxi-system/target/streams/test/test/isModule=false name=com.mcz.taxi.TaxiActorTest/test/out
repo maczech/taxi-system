@@ -1,7 +1,9 @@
 [0m[[0minfo[0m] [0m[32mTaxiActorTest:[0m[0m
-[0m[[0minfo[0m] [0m[32mAn Taxi Actor[0m[0m
+[0m[[0minfo[0m] [0m[32mA Taxi Actor[0m[0m
 [0m[[0minfo[0m] [0m[32m- should log warning when wrong message type[0m[0m
-[0m[[0minfo[0m] [0m[32mAn Taxi Actor[0m[0m
-[0m[[0minfo[0m] [0m[32m- should send location whem close to the sation[0m[0m
-[0m[[0minfo[0m] [0m[32mAn Taxi Actor[0m[0m
+[0m[[0minfo[0m] [0m[32mA Taxi Actor[0m[0m
+[0m[[0minfo[0m] [0m[32m- should send location when close to the sation[0m[0m
+[0m[[0minfo[0m] [0m[32mA Taxi Actor[0m[0m
 [0m[[0minfo[0m] [0m[32m- should send call gps when location requested[0m[0m
+[0m[[0minfo[0m] [0m[32mA Taxi Actor[0m[0m
+[0m[[0minfo[0m] [0m[32m- should log error when exception from Tube station locator[0m[0m

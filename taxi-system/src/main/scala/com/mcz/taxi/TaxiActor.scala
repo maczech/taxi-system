@@ -20,7 +20,7 @@ import akka.event.Logging
 object TaxiActor {
   val config = ConfigFactory.load()
   val tubeStationLocator: TubeStationLocatorAdapter = new TubeStationLocatorAdapter
-  def create(): Props = Props(new TaxiActor(config.getInt("taxi-system.taxi-id"),Props[GPSActor],Props[ManagementCenterActor],tubeStationLocator))
+  def create(): Props = Props(new TaxiActor(config.getInt("taxi-system.taxi-id"),Props[GPSActor],ManagementCenterActor.create,tubeStationLocator))
 }
 
 class TaxiActor(val taxiId: Int,gpsActorProps:Props, managementActorProps:Props, val tubeStationLocator: TubeStationLocatorAdapter) extends Actor {

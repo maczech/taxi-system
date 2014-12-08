@@ -12,6 +12,11 @@
   <classpathentry kind="lib" path="/home/maczech/.ivy2/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.7.7.jar"/>
   <classpathentry kind="lib" path="/home/maczech/.ivy2/cache/ch.qos.logback/logback-classic/jars/logback-classic-1.1.2.jar"/>
   <classpathentry kind="lib" path="/home/maczech/.ivy2/cache/ch.qos.logback/logback-core/jars/logback-core-1.1.2.jar"/>
+  <classpathentry kind="lib" path="/home/maczech/.ivy2/cache/org.scalamock/scalamock-scalatest-support_2.10/jars/scalamock-scalatest-support_2.10-3.2.1.jar"/>
+  <classpathentry kind="lib" path="/home/maczech/.ivy2/cache/org.scalamock/scalamock-core_2.10/jars/scalamock-core_2.10-3.2.1.jar"/>
+  <classpathentry kind="lib" path="/home/maczech/.ivy2/cache/org.mockito/mockito-core/jars/mockito-core-1.9.5.jar"/>
+  <classpathentry kind="lib" path="/home/maczech/.ivy2/cache/org.hamcrest/hamcrest-core/jars/hamcrest-core-1.1.jar"/>
+  <classpathentry kind="lib" path="/home/maczech/.ivy2/cache/org.objenesis/objenesis/jars/objenesis-1.0.jar"/>
   <classpathentry kind="src" path="/gps-system" exported="true" combineaccessrules="false"/>
   <classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
   <classpathentry kind="output" path="bin"/>
