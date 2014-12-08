@@ -9,7 +9,7 @@
 [0m[[0mdebug[0m] [0m	/home/maczech/.ivy2/cache/com.typesafe.akka/akka-actor_2.10/jars/akka-actor_2.10-2.3.7.jar:/home/maczech/.ivy2/cache/com.typesafe/config/bundles/config-1.2.1.jar[0m
 [0m[[0mdebug[0m] [0m	/home/maczech/Development/workspace/scala/taxi/gps-system/src/main/scala/com/mcz/Gpssystem.scala[0m
 [0m[[0mdebug[0m] [0m	/home/maczech/Development/workspace/scala/taxi/gps-system/src/main/scala/com/mcz/gps/GPSActor.scala[0m
-[0m[[0mdebug[0m] [0m	/home/maczech/Development/workspace/scala/taxi/gps-system/src/main/scala/com/mcz/gps/message/Location.scala[0m
+[0m[[0mdebug[0m] [0m	/home/maczech/Development/workspace/scala/taxi/gps-system/src/main/scala/com/mcz/gps/message/Coordinate.scala[0m
 [0m[[0mdebug[0m] [0m	/home/maczech/Development/workspace/scala/taxi/gps-system/src/main/scala/com/mcz/gps/message/LocationRequest.scala[0m
 [0m[[33mwarn[0m] [0mthere were 1 deprecation warning(s); re-run with -deprecation for details[0m
 [0m[[33mwarn[0m] [0mone warning found[0m

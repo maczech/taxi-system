@@ -1,0 +1,13 @@
+[0m[[0minfo[0m] [0mPackaging /home/maczech/Development/workspace/scala/taxi/management-center/target/scala-2.10/management-center_2.10-0.1-SNAPSHOT-sources.jar ...[0m
+[0m[[0mdebug[0m] [0mInput file mappings:[0m
+[0m[[0mdebug[0m] [0m	com/mcz/management/ManagementCenterAdaptor.scala[0m
+[0m[[0mdebug[0m] [0m	  /home/maczech/Development/workspace/scala/taxi/management-center/src/main/scala/com/mcz/management/ManagementCenterAdaptor.scala[0m
+[0m[[0mdebug[0m] [0m	com/mcz/management/ManagementCenterActor.scala[0m
+[0m[[0mdebug[0m] [0m	  /home/maczech/Development/workspace/scala/taxi/management-center/src/main/scala/com/mcz/management/ManagementCenterActor.scala[0m
+[0m[[0mdebug[0m] [0m	com/mcz/Managementcenter.scala[0m
+[0m[[0mdebug[0m] [0m	  /home/maczech/Development/workspace/scala/taxi/management-center/src/main/scala/com/mcz/Managementcenter.scala[0m
+[0m[[0mdebug[0m] [0m	com/mcz/management/message/Location.scala[0m
+[0m[[0mdebug[0m] [0m	  /home/maczech/Development/workspace/scala/taxi/management-center/src/main/scala/com/mcz/management/message/Location.scala[0m
+[0m[[0mdebug[0m] [0m	logback.xml[0m
+[0m[[0mdebug[0m] [0m	  /home/maczech/Development/workspace/scala/taxi/management-center/src/main/resources/logback.xml[0m
+[0m[[0minfo[0m] [0mDone packaging.[0m

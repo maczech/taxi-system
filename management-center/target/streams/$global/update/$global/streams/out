@@ -1,4 +1,4 @@
-[0m[[0minfo[0m] [0mUpdating {file:/home/maczech/Development/workspace/scala/taxi/management-center/}management-center...[0m
+[0m[[0minfo[0m] [0mUpdating {file:/home/maczech/Development/workspace/scala/taxi/}management-center...[0m
 [0m[[0mdebug[0m] [0m:: resolving dependencies :: com.mcz#management-center_2.10;0.1-SNAPSHOT[0m
 [0m[[0mdebug[0m] [0m	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool][0m
 [0m[[0mdebug[0m] [0m	validate = true[0m
@@ -7,20 +7,29 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies for com.mcz#management-center_2.10;0.1-SNAPSHOT [compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.mcz#management-center_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.10.4 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3c3c5b7e[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@456f580[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-library;2.10.4[0m
 [0m[[0mdebug[0m] [0m	found org.scala-lang#scala-library;2.10.4 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m	[2.10.4] org.scala-lang#scala-library;2.10.4[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.mcz#management-center_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.mcz#management-center_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.mcz#management-center_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.mcz#management-center_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-actor_2.10;2.3.7 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mcz#management-center_2.10;0.1-SNAPSHOT->com.mcz#gps-system_2.10;0.1-SNAPSHOT [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving com.mcz#gps-system_2.10;0.1-SNAPSHOT ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@740c3f4c[0m
+[0m[[0mdebug[0m] [0mdon't use cache for com.mcz#gps-system_2.10;0.1-SNAPSHOT: changing=true[0m
+[0m[[0mdebug[0m] [0m	found com.mcz#gps-system_2.10;0.1-SNAPSHOT in inter-project[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mcz#gps-system_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mcz#gps-system_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mcz#gps-system_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mcz#gps-system_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mcz#gps-system_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-actor_2.10;2.3.7 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving com.typesafe.akka#akka-actor_2.10;2.3.7 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.typesafe.akka#akka-actor_2.10;2.3.7 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.typesafe.akka#akka-actor_2.10;2.3.7[0m
 [0m[[0mdebug[0m] [0m	found com.typesafe.akka#akka-actor_2.10;2.3.7 in sbt-chain[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.mcz#management-center_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-actor_2.10;2.3.7 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.mcz#management-center_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-actor_2.10;2.3.7 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mcz#gps-system_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-actor_2.10;2.3.7 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mcz#gps-system_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-actor_2.10;2.3.7 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.3.7->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.3.7->org.scala-lang#scala-library;2.10.4 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.3.7->org.scala-lang#scala-library;2.10.4 [compile->runtime(*)][0m
@@ -37,28 +46,11 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.3.7->org.scala-lang#scala-library;2.10.4 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.3.7->com.typesafe#config;1.2.1 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.3.7->com.typesafe#config;1.2.1 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.mcz#management-center_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-actor_2.10;2.3.7 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.mcz#management-center_2.10;0.1-SNAPSHOT->com.mcz#gps-system_2.10;0.1-SNAPSHOT [compile->default(compile)][0m
-[0m[[0minfo[0m] [0mResolving com.mcz#gps-system_2.10;0.1-SNAPSHOT ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.mcz#gps-system_2.10;0.1-SNAPSHOT {compile=[default(compile)]}[0m
-[0m[[0mdebug[0m] [0mdon't use cache for com.mcz#gps-system_2.10;0.1-SNAPSHOT: changing=true[0m
-[0m[[0minfo[0m] [0mResolving com.mcz#gps-system_2.10;0.1-SNAPSHOT ...[0m
-[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: com.mcz#gps-system_2.10;0.1-SNAPSHOT {compile=[default(compile)]}[0m
-[0m[[0mdebug[0m] [0mdon't use cache for com.mcz#gps-system_2.10;0.1-SNAPSHOT: changing=true[0m
-[0m[[0mdebug[0m] [0mdon't use cache for com.mcz#gps-system_2.10;0.1-SNAPSHOT: changing=true[0m
-[0m[[0mdebug[0m] [0m		tried /home/maczech/.ivy2/local/com.mcz/gps-system_2.10/0.1-SNAPSHOT/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: found md file for com.mcz#gps-system_2.10;0.1-SNAPSHOT[0m
-[0m[[0mdebug[0m] [0m		=> /home/maczech/.ivy2/local/com.mcz/gps-system_2.10/0.1-SNAPSHOT/ivys/ivy.xml (0.1-SNAPSHOT)[0m
-[0m[[0mdebug[0m] [0m	default-cache: revision in cache (not updated): com.mcz#gps-system_2.10;0.1-SNAPSHOT[0m
-[0m[[0mdebug[0m] [0m	found com.mcz#gps-system_2.10;0.1-SNAPSHOT in sbt-chain[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.mcz#gps-system_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.mcz#gps-system_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.mcz#gps-system_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.mcz#gps-system_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.mcz#gps-system_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-actor_2.10;2.3.7 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.mcz#gps-system_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-actor_2.10;2.3.7 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.mcz#gps-system_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-actor_2.10;2.3.7 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.mcz#gps-system_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-actor_2.10;2.3.7 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mcz#management-center_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-actor_2.10;2.3.7 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mcz#management-center_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-actor_2.10;2.3.7 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mcz#management-center_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-actor_2.10;2.3.7 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mcz#management-center_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-actor_2.10;2.3.7 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.mcz#management-center_2.10;0.1-SNAPSHOT->org.log4s#log4s_2.10;1.1.3 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.log4s#log4s_2.10;1.1.3 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.log4s#log4s_2.10;1.1.3 {compile=[default(compile)]}[0m
@@ -92,63 +84,15 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.mcz#management-center_2.10;0.1-SNAPSHOT->ch.qos.logback#logback-classic;1.1.2 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving ch.qos.logback#logback-classic;1.1.2 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: ch.qos.logback#logback-classic;1.1.2 {compile=[default(compile)]}[0m
-[0m[[0minfo[0m] [0mResolving ch.qos.logback#logback-classic;1.1.2 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: ch.qos.logback#logback-classic;1.1.2 {compile=[default(compile)]}[0m
-[0m[[0mdebug[0m] [0m		tried /home/maczech/.ivy2/local/ch.qos.logback/logback-classic/1.1.2/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: no ivy file found for ch.qos.logback#logback-classic;1.1.2[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.1.2/logback-classic-1.1.2.pom[0m
-[0m[[0mdebug[0m] [0m	public: found md file for ch.qos.logback#logback-classic;1.1.2[0m
-[0m[[0mdebug[0m] [0m		=> https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.1.2/logback-classic-1.1.2.pom (1.1.2)[0m
-[0m[[0mdebug[0m] [0mdownloading https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.1.2/logback-classic-1.1.2.pom ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.1.2/logback-classic-1.1.2.pom[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.1.2/logback-classic-1.1.2.pom.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.1.2/logback-classic-1.1.2.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] ch.qos.logback#logback-classic;1.1.2!logback-classic.pom(pom.original) (397ms)[0m
-[0m[[0minfo[0m] [0mResolving ch.qos.logback#logback-parent;1.1.2 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: ch.qos.logback#logback-parent;1.1.2 {}[0m
-[0m[[0minfo[0m] [0mResolving ch.qos.logback#logback-parent;1.1.2 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: ch.qos.logback#logback-parent;1.1.2 {}[0m
-[0m[[0mdebug[0m] [0m		tried /home/maczech/.ivy2/local/ch.qos.logback/logback-parent/1.1.2/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: no ivy file found for ch.qos.logback#logback-parent;1.1.2[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/ch/qos/logback/logback-parent/1.1.2/logback-parent-1.1.2.pom[0m
-[0m[[0mdebug[0m] [0m	public: found md file for ch.qos.logback#logback-parent;1.1.2[0m
-[0m[[0mdebug[0m] [0m		=> https://repo1.maven.org/maven2/ch/qos/logback/logback-parent/1.1.2/logback-parent-1.1.2.pom (1.1.2)[0m
-[0m[[0mdebug[0m] [0mdownloading https://repo1.maven.org/maven2/ch/qos/logback/logback-parent/1.1.2/logback-parent-1.1.2.pom ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/ch/qos/logback/logback-parent/1.1.2/logback-parent-1.1.2.pom[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/ch/qos/logback/logback-parent/1.1.2/logback-parent-1.1.2.pom.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/ch/qos/logback/logback-parent/1.1.2/logback-parent-1.1.2.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] ch.qos.logback#logback-parent;1.1.2!logback-parent.pom(pom.original) (404ms)[0m
-[0m[[0mdebug[0m] [0m		tried /home/maczech/.ivy2/local/ch.qos.logback/logback-parent/1.1.2/jars/logback-parent.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/ch/qos/logback/logback-parent/1.1.2/logback-parent-1.1.2.jar[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/ch/qos/logback/logback-parent/1.1.2/logback-parent-1.1.2.jar[0m
-[0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/releases/ch/qos/logback/logback-parent/1.1.2/logback-parent-1.1.2.jar[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/releases/ch/qos/logback/logback-parent/1.1.2/logback-parent-1.1.2.jar[0m
-[0m[[0mdebug[0m] [0m		tried /home/maczech/.ivy2/local/ch.qos.logback/logback-classic/1.1.2/jars/logback-classic.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.1.2/logback-classic-1.1.2.jar[0m
-[0m[[0mdebug[0m] [0m	found ch.qos.logback#logback-classic;1.1.2 in public[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: ch.qos.logback#logback-classic;1.1.2[0m
+[0m[[0mdebug[0m] [0m	found ch.qos.logback#logback-classic;1.1.2 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.mcz#management-center_2.10;0.1-SNAPSHOT->ch.qos.logback#logback-classic;1.1.2 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.mcz#management-center_2.10;0.1-SNAPSHOT->ch.qos.logback#logback-classic;1.1.2 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.1.2->ch.qos.logback#logback-core;1.1.2 [compile->compile(*)][0m
 [0m[[0minfo[0m] [0mResolving ch.qos.logback#logback-core;1.1.2 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2cfb7a20[0m
-[0m[[0minfo[0m] [0mResolving ch.qos.logback#logback-core;1.1.2 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: sbt.ivyint.MergedDescriptors@2cfb7a20[0m
-[0m[[0mdebug[0m] [0m		tried /home/maczech/.ivy2/local/ch.qos.logback/logback-core/1.1.2/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: no ivy file found for ch.qos.logback#logback-core;1.1.2[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.1.2/logback-core-1.1.2.pom[0m
-[0m[[0mdebug[0m] [0m	public: found md file for ch.qos.logback#logback-core;1.1.2[0m
-[0m[[0mdebug[0m] [0m		=> https://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.1.2/logback-core-1.1.2.pom (1.1.2)[0m
-[0m[[0mdebug[0m] [0mdownloading https://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.1.2/logback-core-1.1.2.pom ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.1.2/logback-core-1.1.2.pom[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.1.2/logback-core-1.1.2.pom.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.1.2/logback-core-1.1.2.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] ch.qos.logback#logback-core;1.1.2!logback-core.pom(pom.original) (413ms)[0m
-[0m[[0minfo[0m] [0mResolving ch.qos.logback#logback-parent;1.1.2 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: ch.qos.logback#logback-parent;1.1.2 {}[0m
-[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: ch.qos.logback#logback-parent;1.1.2[0m
-[0m[[0mdebug[0m] [0m		tried /home/maczech/.ivy2/local/ch.qos.logback/logback-core/1.1.2/jars/logback-core.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.1.2/logback-core-1.1.2.jar[0m
-[0m[[0mdebug[0m] [0m	found ch.qos.logback#logback-core;1.1.2 in public[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: ch.qos.logback#logback-core;1.1.2 {compile=[compile(*), master(compile)], runtime=[runtime(*)], test=[runtime(*), master(compile)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: ch.qos.logback#logback-core;1.1.2[0m
+[0m[[0mdebug[0m] [0m	found ch.qos.logback#logback-core;1.1.2 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.1.2->ch.qos.logback#logback-core;1.1.2 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.1.2->ch.qos.logback#logback-core;1.1.2 [compile->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.1.2->ch.qos.logback#logback-core;1.1.2 [compile->compile][0m
@@ -169,18 +113,6 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.mcz#management-center_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.mcz#management-center_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.mcz#management-center_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.mcz#management-center_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-actor_2.10;2.3.7 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.mcz#management-center_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-actor_2.10;2.3.7 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.mcz#management-center_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-actor_2.10;2.3.7 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.3.7->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.3.7->org.scala-lang#scala-library;2.10.4 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.3.7->com.typesafe#config;1.2.1 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.3.7->com.typesafe#config;1.2.1 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.3.7->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.3.7->org.scala-lang#scala-library;2.10.4 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.3.7->com.typesafe#config;1.2.1 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.3.7->com.typesafe#config;1.2.1 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.mcz#management-center_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-actor_2.10;2.3.7 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.mcz#management-center_2.10;0.1-SNAPSHOT->com.mcz#gps-system_2.10;0.1-SNAPSHOT [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.mcz#gps-system_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.mcz#gps-system_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->runtime][0m
@@ -189,7 +121,19 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.mcz#gps-system_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-actor_2.10;2.3.7 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.mcz#gps-system_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-actor_2.10;2.3.7 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.mcz#gps-system_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-actor_2.10;2.3.7 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.3.7->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.3.7->org.scala-lang#scala-library;2.10.4 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.3.7->com.typesafe#config;1.2.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.3.7->com.typesafe#config;1.2.1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.3.7->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.3.7->org.scala-lang#scala-library;2.10.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.3.7->com.typesafe#config;1.2.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.3.7->com.typesafe#config;1.2.1 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.mcz#gps-system_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-actor_2.10;2.3.7 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mcz#management-center_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-actor_2.10;2.3.7 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mcz#management-center_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-actor_2.10;2.3.7 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mcz#management-center_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-actor_2.10;2.3.7 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mcz#management-center_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-actor_2.10;2.3.7 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.mcz#management-center_2.10;0.1-SNAPSHOT->org.log4s#log4s_2.10;1.1.3 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.mcz#management-center_2.10;0.1-SNAPSHOT->org.log4s#log4s_2.10;1.1.3 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.mcz#management-center_2.10;0.1-SNAPSHOT->org.log4s#log4s_2.10;1.1.3 [compile->compile][0m
@@ -229,18 +173,6 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.mcz#management-center_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.mcz#management-center_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.mcz#management-center_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.mcz#management-center_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-actor_2.10;2.3.7 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.mcz#management-center_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-actor_2.10;2.3.7 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.mcz#management-center_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-actor_2.10;2.3.7 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.3.7->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.3.7->org.scala-lang#scala-library;2.10.4 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.3.7->com.typesafe#config;1.2.1 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.3.7->com.typesafe#config;1.2.1 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.3.7->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.3.7->org.scala-lang#scala-library;2.10.4 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.3.7->com.typesafe#config;1.2.1 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.3.7->com.typesafe#config;1.2.1 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.mcz#management-center_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-actor_2.10;2.3.7 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.mcz#management-center_2.10;0.1-SNAPSHOT->com.mcz#gps-system_2.10;0.1-SNAPSHOT [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.mcz#gps-system_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.mcz#gps-system_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->runtime][0m
@@ -249,7 +181,19 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.mcz#gps-system_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-actor_2.10;2.3.7 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.mcz#gps-system_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-actor_2.10;2.3.7 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.mcz#gps-system_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-actor_2.10;2.3.7 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.3.7->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.3.7->org.scala-lang#scala-library;2.10.4 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.3.7->com.typesafe#config;1.2.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.3.7->com.typesafe#config;1.2.1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.3.7->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.3.7->org.scala-lang#scala-library;2.10.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.3.7->com.typesafe#config;1.2.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.3.7->com.typesafe#config;1.2.1 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.mcz#gps-system_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-actor_2.10;2.3.7 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mcz#management-center_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-actor_2.10;2.3.7 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mcz#management-center_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-actor_2.10;2.3.7 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mcz#management-center_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-actor_2.10;2.3.7 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mcz#management-center_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-actor_2.10;2.3.7 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.mcz#management-center_2.10;0.1-SNAPSHOT->org.log4s#log4s_2.10;1.1.3 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.mcz#management-center_2.10;0.1-SNAPSHOT->org.log4s#log4s_2.10;1.1.3 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.mcz#management-center_2.10;0.1-SNAPSHOT->org.log4s#log4s_2.10;1.1.3 [compile->compile][0m
@@ -292,18 +236,6 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.mcz#management-center_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.mcz#management-center_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.mcz#management-center_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.mcz#management-center_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-actor_2.10;2.3.7 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.mcz#management-center_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-actor_2.10;2.3.7 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.mcz#management-center_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-actor_2.10;2.3.7 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.3.7->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.3.7->org.scala-lang#scala-library;2.10.4 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.3.7->com.typesafe#config;1.2.1 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.3.7->com.typesafe#config;1.2.1 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.3.7->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.3.7->org.scala-lang#scala-library;2.10.4 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.3.7->com.typesafe#config;1.2.1 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.3.7->com.typesafe#config;1.2.1 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.mcz#management-center_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-actor_2.10;2.3.7 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.mcz#management-center_2.10;0.1-SNAPSHOT->com.mcz#gps-system_2.10;0.1-SNAPSHOT [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.mcz#gps-system_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.mcz#gps-system_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->runtime][0m
@@ -312,7 +244,19 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.mcz#gps-system_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-actor_2.10;2.3.7 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.mcz#gps-system_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-actor_2.10;2.3.7 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.mcz#gps-system_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-actor_2.10;2.3.7 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.3.7->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.3.7->org.scala-lang#scala-library;2.10.4 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.3.7->com.typesafe#config;1.2.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.3.7->com.typesafe#config;1.2.1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.3.7->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.3.7->org.scala-lang#scala-library;2.10.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.3.7->com.typesafe#config;1.2.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.3.7->com.typesafe#config;1.2.1 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.mcz#gps-system_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-actor_2.10;2.3.7 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mcz#management-center_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-actor_2.10;2.3.7 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mcz#management-center_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-actor_2.10;2.3.7 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mcz#management-center_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-actor_2.10;2.3.7 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mcz#management-center_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-actor_2.10;2.3.7 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.mcz#management-center_2.10;0.1-SNAPSHOT->org.log4s#log4s_2.10;1.1.3 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.mcz#management-center_2.10;0.1-SNAPSHOT->org.log4s#log4s_2.10;1.1.3 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.mcz#management-center_2.10;0.1-SNAPSHOT->org.log4s#log4s_2.10;1.1.3 [compile->compile][0m
@@ -354,18 +298,6 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.mcz#management-center_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.mcz#management-center_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.mcz#management-center_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.mcz#management-center_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-actor_2.10;2.3.7 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.mcz#management-center_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-actor_2.10;2.3.7 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.mcz#management-center_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-actor_2.10;2.3.7 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.3.7->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.3.7->org.scala-lang#scala-library;2.10.4 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.3.7->com.typesafe#config;1.2.1 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.3.7->com.typesafe#config;1.2.1 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.3.7->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.3.7->org.scala-lang#scala-library;2.10.4 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.3.7->com.typesafe#config;1.2.1 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.3.7->com.typesafe#config;1.2.1 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.mcz#management-center_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-actor_2.10;2.3.7 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.mcz#management-center_2.10;0.1-SNAPSHOT->com.mcz#gps-system_2.10;0.1-SNAPSHOT [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.mcz#gps-system_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.mcz#gps-system_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->runtime][0m
@@ -374,7 +306,19 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.mcz#gps-system_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-actor_2.10;2.3.7 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.mcz#gps-system_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-actor_2.10;2.3.7 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.mcz#gps-system_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-actor_2.10;2.3.7 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.3.7->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.3.7->org.scala-lang#scala-library;2.10.4 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.3.7->com.typesafe#config;1.2.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.3.7->com.typesafe#config;1.2.1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.3.7->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.3.7->org.scala-lang#scala-library;2.10.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.3.7->com.typesafe#config;1.2.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.3.7->com.typesafe#config;1.2.1 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.mcz#gps-system_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-actor_2.10;2.3.7 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mcz#management-center_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-actor_2.10;2.3.7 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mcz#management-center_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-actor_2.10;2.3.7 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mcz#management-center_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-actor_2.10;2.3.7 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mcz#management-center_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-actor_2.10;2.3.7 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.mcz#management-center_2.10;0.1-SNAPSHOT->org.log4s#log4s_2.10;1.1.3 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.mcz#management-center_2.10;0.1-SNAPSHOT->org.log4s#log4s_2.10;1.1.3 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.mcz#management-center_2.10;0.1-SNAPSHOT->org.log4s#log4s_2.10;1.1.3 [compile->compile][0m
@@ -416,18 +360,6 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.mcz#management-center_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.mcz#management-center_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.mcz#management-center_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.mcz#management-center_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-actor_2.10;2.3.7 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.mcz#management-center_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-actor_2.10;2.3.7 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.mcz#management-center_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-actor_2.10;2.3.7 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.3.7->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.3.7->org.scala-lang#scala-library;2.10.4 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.3.7->com.typesafe#config;1.2.1 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.3.7->com.typesafe#config;1.2.1 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.3.7->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.3.7->org.scala-lang#scala-library;2.10.4 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.3.7->com.typesafe#config;1.2.1 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.3.7->com.typesafe#config;1.2.1 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.mcz#management-center_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-actor_2.10;2.3.7 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.mcz#management-center_2.10;0.1-SNAPSHOT->com.mcz#gps-system_2.10;0.1-SNAPSHOT [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.mcz#gps-system_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.mcz#gps-system_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->runtime][0m
@@ -436,7 +368,19 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.mcz#gps-system_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-actor_2.10;2.3.7 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.mcz#gps-system_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-actor_2.10;2.3.7 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.mcz#gps-system_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-actor_2.10;2.3.7 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.3.7->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.3.7->org.scala-lang#scala-library;2.10.4 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.3.7->com.typesafe#config;1.2.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.3.7->com.typesafe#config;1.2.1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.3.7->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.3.7->org.scala-lang#scala-library;2.10.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.3.7->com.typesafe#config;1.2.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.3.7->com.typesafe#config;1.2.1 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.mcz#gps-system_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-actor_2.10;2.3.7 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mcz#management-center_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-actor_2.10;2.3.7 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mcz#management-center_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-actor_2.10;2.3.7 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mcz#management-center_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-actor_2.10;2.3.7 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.mcz#management-center_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-actor_2.10;2.3.7 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.mcz#management-center_2.10;0.1-SNAPSHOT->org.log4s#log4s_2.10;1.1.3 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.mcz#management-center_2.10;0.1-SNAPSHOT->org.log4s#log4s_2.10;1.1.3 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.mcz#management-center_2.10;0.1-SNAPSHOT->org.log4s#log4s_2.10;1.1.3 [compile->compile][0m
@@ -534,27 +478,16 @@
 [0m[[0mdebug[0m] [0m:: downloading artifacts ::[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-library;2.10.4!scala-library.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.akka#akka-actor_2.10;2.3.7!akka-actor_2.10.jar[0m
-[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.mcz#gps-system_2.10;0.1-SNAPSHOT!gps-system_2.10.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.log4s#log4s_2.10;1.1.3!log4s_2.10.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.slf4j#slf4j-api;1.7.7!slf4j-api.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.1.2/logback-classic-1.1.2.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.1.2/logback-classic-1.1.2.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.1.2/logback-classic-1.1.2.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.1.2/logback-classic-1.1.2.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.1.2/logback-classic-1.1.2.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] ch.qos.logback#logback-classic;1.1.2!logback-classic.jar (909ms)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] ch.qos.logback#logback-classic;1.1.2!logback-classic.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe#config;1.2.1!config.jar(bundle)[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.1.2/logback-core-1.1.2.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.1.2/logback-core-1.1.2.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.1.2/logback-core-1.1.2.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.1.2/logback-core-1.1.2.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.1.2/logback-core-1.1.2.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] ch.qos.logback#logback-core;1.1.2!logback-core.jar (1194ms)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] ch.qos.logback#logback-core;1.1.2!logback-core.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-compiler;2.10.4!scala-compiler.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-reflect;2.10.4!scala-reflect.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#jline;2.10.4!jline.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar[0m
-[0m[[0mdebug[0m] [0m:: resolution report :: resolve 19728ms :: artifacts dl 2119ms[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 373ms :: artifacts dl 14ms[0m
 [0m[[0mdebug[0m] [0m	report for com.mcz#management-center_2.10;0.1-SNAPSHOT compile produced in /home/maczech/Development/workspace/scala/taxi/management-center/target/resolution-cache/reports/com.mcz-management-center_2.10-compile.xml[0m
 [0m[[0mdebug[0m] [0m	report for com.mcz#management-center_2.10;0.1-SNAPSHOT runtime produced in /home/maczech/Development/workspace/scala/taxi/management-center/target/resolution-cache/reports/com.mcz-management-center_2.10-runtime.xml[0m
 [0m[[0mdebug[0m] [0m	report for com.mcz#management-center_2.10;0.1-SNAPSHOT test produced in /home/maczech/Development/workspace/scala/taxi/management-center/target/resolution-cache/reports/com.mcz-management-center_2.10-test.xml[0m
@@ -568,5 +501,5 @@
 [0m[[0mdebug[0m] [0m	report for com.mcz#management-center_2.10;0.1-SNAPSHOT docs produced in /home/maczech/Development/workspace/scala/taxi/management-center/target/resolution-cache/reports/com.mcz-management-center_2.10-docs.xml[0m
 [0m[[0mdebug[0m] [0m	report for com.mcz#management-center_2.10;0.1-SNAPSHOT pom produced in /home/maczech/Development/workspace/scala/taxi/management-center/target/resolution-cache/reports/com.mcz-management-center_2.10-pom.xml[0m
 [0m[[0mdebug[0m] [0m	report for com.mcz#management-center_2.10;0.1-SNAPSHOT scala-tool produced in /home/maczech/Development/workspace/scala/taxi/management-center/target/resolution-cache/reports/com.mcz-management-center_2.10-scala-tool.xml[0m
-[0m[[0mdebug[0m] [0m	resolve done (19728ms resolve - 2119ms download)[0m
+[0m[[0mdebug[0m] [0m	resolve done (373ms resolve - 14ms download)[0m
 [0m[[0minfo[0m] [0mDone updating.[0m

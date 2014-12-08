@@ -1,0 +1,31 @@
+[0m[[0minfo[0m] [0mPackaging /home/maczech/Development/workspace/scala/taxi/taxi-system/target/scala-2.10/taxi-system_2.10-0.1-SNAPSHOT.jar ...[0m
+[0m[[0mdebug[0m] [0mInput file mappings:[0m
+[0m[[0mdebug[0m] [0m	com/mcz/taxi/TaxiActor.class[0m
+[0m[[0mdebug[0m] [0m	  /home/maczech/Development/workspace/scala/taxi/taxi-system/target/scala-2.10/classes/com/mcz/taxi/TaxiActor.class[0m
+[0m[[0mdebug[0m] [0m	com[0m
+[0m[[0mdebug[0m] [0m	  /home/maczech/Development/workspace/scala/taxi/taxi-system/target/scala-2.10/classes/com[0m
+[0m[[0mdebug[0m] [0m	com/mcz/taxi/TaxiActor$$anonfun$receive$1.class[0m
+[0m[[0mdebug[0m] [0m	  /home/maczech/Development/workspace/scala/taxi/taxi-system/target/scala-2.10/classes/com/mcz/taxi/TaxiActor$$anonfun$receive$1.class[0m
+[0m[[0mdebug[0m] [0m	com/mcz/taxi/TaxiActor$$anonfun$sendLocation$1.class[0m
+[0m[[0mdebug[0m] [0m	  /home/maczech/Development/workspace/scala/taxi/taxi-system/target/scala-2.10/classes/com/mcz/taxi/TaxiActor$$anonfun$sendLocation$1.class[0m
+[0m[[0mdebug[0m] [0m	com/mcz/taxi/TaxiActor$.class[0m
+[0m[[0mdebug[0m] [0m	  /home/maczech/Development/workspace/scala/taxi/taxi-system/target/scala-2.10/classes/com/mcz/taxi/TaxiActor$.class[0m
+[0m[[0mdebug[0m] [0m	com/mcz/Taxisystem$delayedInit$body.class[0m
+[0m[[0mdebug[0m] [0m	  /home/maczech/Development/workspace/scala/taxi/taxi-system/target/scala-2.10/classes/com/mcz/Taxisystem$delayedInit$body.class[0m
+[0m[[0mdebug[0m] [0m	com/mcz/taxi/TaxiActor$$anonfun$1.class[0m
+[0m[[0mdebug[0m] [0m	  /home/maczech/Development/workspace/scala/taxi/taxi-system/target/scala-2.10/classes/com/mcz/taxi/TaxiActor$$anonfun$1.class[0m
+[0m[[0mdebug[0m] [0m	com/mcz/taxi/TubeStationLocatorAdapter.class[0m
+[0m[[0mdebug[0m] [0m	  /home/maczech/Development/workspace/scala/taxi/taxi-system/target/scala-2.10/classes/com/mcz/taxi/TubeStationLocatorAdapter.class[0m
+[0m[[0mdebug[0m] [0m	com/mcz/Taxisystem.class[0m
+[0m[[0mdebug[0m] [0m	  /home/maczech/Development/workspace/scala/taxi/taxi-system/target/scala-2.10/classes/com/mcz/Taxisystem.class[0m
+[0m[[0mdebug[0m] [0m	application.conf[0m
+[0m[[0mdebug[0m] [0m	  /home/maczech/Development/workspace/scala/taxi/taxi-system/target/scala-2.10/classes/application.conf[0m
+[0m[[0mdebug[0m] [0m	com/mcz/taxi/TaxiActor$$anonfun$create$1.class[0m
+[0m[[0mdebug[0m] [0m	  /home/maczech/Development/workspace/scala/taxi/taxi-system/target/scala-2.10/classes/com/mcz/taxi/TaxiActor$$anonfun$create$1.class[0m
+[0m[[0mdebug[0m] [0m	com/mcz/Taxisystem$.class[0m
+[0m[[0mdebug[0m] [0m	  /home/maczech/Development/workspace/scala/taxi/taxi-system/target/scala-2.10/classes/com/mcz/Taxisystem$.class[0m
+[0m[[0mdebug[0m] [0m	com/mcz/taxi[0m
+[0m[[0mdebug[0m] [0m	  /home/maczech/Development/workspace/scala/taxi/taxi-system/target/scala-2.10/classes/com/mcz/taxi[0m
+[0m[[0mdebug[0m] [0m	com/mcz[0m
+[0m[[0mdebug[0m] [0m	  /home/maczech/Development/workspace/scala/taxi/taxi-system/target/scala-2.10/classes/com/mcz[0m
+[0m[[0minfo[0m] [0mDone packaging.[0m

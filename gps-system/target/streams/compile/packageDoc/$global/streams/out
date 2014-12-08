@@ -120,8 +120,6 @@
 [0m[[0mdebug[0m] [0m	  /home/maczech/Development/workspace/scala/taxi/gps-system/target/scala-2.10/api/lib/diagrams.js[0m
 [0m[[0mdebug[0m] [0m	lib/signaturebg2.gif[0m
 [0m[[0mdebug[0m] [0m	  /home/maczech/Development/workspace/scala/taxi/gps-system/target/scala-2.10/api/lib/signaturebg2.gif[0m
-[0m[[0mdebug[0m] [0m	com/mcz/gps/message/Location.html[0m
-[0m[[0mdebug[0m] [0m	  /home/maczech/Development/workspace/scala/taxi/gps-system/target/scala-2.10/api/com/mcz/gps/message/Location.html[0m
 [0m[[0mdebug[0m] [0m	lib/navigation-li-a.png[0m
 [0m[[0mdebug[0m] [0m	  /home/maczech/Development/workspace/scala/taxi/gps-system/target/scala-2.10/api/lib/navigation-li-a.png[0m
 [0m[[0mdebug[0m] [0m	com/mcz/Gpssystem$.html[0m
@@ -160,6 +158,8 @@
 [0m[[0mdebug[0m] [0m	  /home/maczech/Development/workspace/scala/taxi/gps-system/target/scala-2.10/api/lib/object_big.png[0m
 [0m[[0mdebug[0m] [0m	com/mcz/gps/package.html[0m
 [0m[[0mdebug[0m] [0m	  /home/maczech/Development/workspace/scala/taxi/gps-system/target/scala-2.10/api/com/mcz/gps/package.html[0m
+[0m[[0mdebug[0m] [0m	com/mcz/gps/message/Coordinate.html[0m
+[0m[[0mdebug[0m] [0m	  /home/maczech/Development/workspace/scala/taxi/gps-system/target/scala-2.10/api/com/mcz/gps/message/Coordinate.html[0m
 [0m[[0mdebug[0m] [0m	index/index-c.html[0m
 [0m[[0mdebug[0m] [0m	  /home/maczech/Development/workspace/scala/taxi/gps-system/target/scala-2.10/api/index/index-c.html[0m
 [0m[[0mdebug[0m] [0m	com/mcz[0m

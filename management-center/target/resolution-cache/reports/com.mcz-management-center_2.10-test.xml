@@ -7,7 +7,7 @@
 		revision="0.1-SNAPSHOT"
 		conf="test"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
-		date="20141208033521"/>
+		date="20141208054200"/>
 	<dependencies>
 		<module organisation="org.log4s" name="log4s_2.10">
 			<revision name="1.1.3" status="release" pubdate="20141106070825" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://log4s.org" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="4">
@@ -22,26 +22,26 @@
 			</revision>
 		</module>
 		<module organisation="ch.qos.logback" name="logback-classic">
-			<revision name="1.1.2" status="release" pubdate="20140402204238" resolver="public" artresolver="public" homepage="http://logback.qos.ch" downloaded="true" searched="true" default="false" conf="default(compile), default, compile, runtime, master" position="6">
+			<revision name="1.1.2" status="release" pubdate="20140402204238" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://logback.qos.ch" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="6">
 				<license name="Eclipse Public License - v 1.0" url="http://www.eclipse.org/legal/epl-v10.html"/>
 				<license name="GNU Lesser General Public License" url="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html"/>
-				<metadata-artifact status="successful" details="" size="11868" time="397" location="/home/maczech/.ivy2/cache/ch.qos.logback/logback-classic/ivy-1.1.2.xml" searched="true" original-local-location="/home/maczech/.ivy2/cache/ch.qos.logback/logback-classic/ivy-1.1.2.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.1.2/logback-classic-1.1.2.pom"/>
+				<metadata-artifact status="no" details="" size="10622" time="0" location="/home/maczech/.ivy2/cache/ch.qos.logback/logback-classic/ivy-1.1.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.1.2/logback-classic-1.1.2.pom"/>
 				<caller organisation="com.mcz" name="management-center_2.10" conf="test, compile, runtime" rev="1.1.2" rev-constraint-default="1.1.2" rev-constraint-dynamic="1.1.2" callerrev="0.1-SNAPSHOT"/>
 				<artifacts>
-					<artifact name="logback-classic" type="jar" ext="jar" status="successful" details="" size="270750" time="909" location="/home/maczech/.ivy2/cache/ch.qos.logback/logback-classic/jars/logback-classic-1.1.2.jar">
+					<artifact name="logback-classic" type="jar" ext="jar" status="no" details="" size="270750" time="0" location="/home/maczech/.ivy2/cache/ch.qos.logback/logback-classic/jars/logback-classic-1.1.2.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.1.2/logback-classic-1.1.2.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="ch.qos.logback" name="logback-core">
-			<revision name="1.1.2" status="release" pubdate="20140402204047" resolver="public" artresolver="public" homepage="http://logback.qos.ch" downloaded="true" searched="true" default="false" conf="compile, runtime, compile(*), runtime(*), master(compile), master" position="7">
+			<revision name="1.1.2" status="release" pubdate="20140402204047" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://logback.qos.ch" downloaded="false" searched="false" default="false" conf="compile, runtime, compile(*), runtime(*), master(compile), master" position="7">
 				<license name="Eclipse Public License - v 1.0" url="http://www.eclipse.org/legal/epl-v10.html"/>
 				<license name="GNU Lesser General Public License" url="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html"/>
-				<metadata-artifact status="successful" details="" size="5014" time="413" location="/home/maczech/.ivy2/cache/ch.qos.logback/logback-core/ivy-1.1.2.xml" searched="true" original-local-location="/home/maczech/.ivy2/cache/ch.qos.logback/logback-core/ivy-1.1.2.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.1.2/logback-core-1.1.2.pom"/>
+				<metadata-artifact status="no" details="" size="9800" time="0" location="/home/maczech/.ivy2/cache/ch.qos.logback/logback-core/ivy-1.1.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.1.2/logback-core-1.1.2.pom"/>
 				<caller organisation="ch.qos.logback" name="logback-classic" conf="default, compile, runtime, master" rev="1.1.2" rev-constraint-default="1.1.2" rev-constraint-dynamic="1.1.2" callerrev="1.1.2"/>
 				<artifacts>
-					<artifact name="logback-core" type="jar" ext="jar" status="successful" details="" size="427729" time="1194" location="/home/maczech/.ivy2/cache/ch.qos.logback/logback-core/jars/logback-core-1.1.2.jar">
+					<artifact name="logback-core" type="jar" ext="jar" status="no" details="" size="427729" time="0" location="/home/maczech/.ivy2/cache/ch.qos.logback/logback-core/jars/logback-core-1.1.2.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.1.2/logback-core-1.1.2.jar"/>
 					</artifact>
 				</artifacts>
@@ -67,18 +67,15 @@
 			</revision>
 		</module>
 		<module organisation="com.mcz" name="gps-system_2.10">
-			<revision name="0.1-SNAPSHOT" status="integration" pubdate="20141208002055" resolver="sbt-chain" artresolver="sbt-chain" downloaded="false" searched="true" default="false" conf="default(compile), compile" position="3">
-				<metadata-artifact status="no" details="" size="1479" time="0" location="/home/maczech/.ivy2/cache/com.mcz/gps-system_2.10/ivy-0.1-SNAPSHOT.xml" searched="true" origin-is-local="true" origin-location="/home/maczech/.ivy2/local/com.mcz/gps-system_2.10/0.1-SNAPSHOT/ivys/ivy.xml"/>
+			<revision name="0.1-SNAPSHOT" status="integration" pubdate="20141208054200" resolver="inter-project" artresolver="inter-project" downloaded="false" searched="false" default="false" conf="default(compile), compile" position="1">
+				<metadata-artifact status="failed" details="" size="0" time="0" searched="false"/>
 				<caller organisation="com.mcz" name="management-center_2.10" conf="test, compile, runtime" rev="0.1-SNAPSHOT" rev-constraint-default="0.1-SNAPSHOT" rev-constraint-dynamic="0.1-SNAPSHOT" callerrev="0.1-SNAPSHOT"/>
 				<artifacts>
-					<artifact name="gps-system_2.10" type="jar" ext="jar" status="no" details="" size="12163" time="0" location="/home/maczech/.ivy2/local/com.mcz/gps-system_2.10/0.1-SNAPSHOT/jars/gps-system_2.10.jar">
-						<origin-location is-local="true" location="/home/maczech/.ivy2/local/com.mcz/gps-system_2.10/0.1-SNAPSHOT/jars/gps-system_2.10.jar"/>
-					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="com.typesafe.akka" name="akka-actor_2.10">
-			<revision name="2.3.7" status="release" pubdate="20141112095120" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="1">
+			<revision name="2.3.7" status="release" pubdate="20141112095120" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="2">
 				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
 				<metadata-artifact status="no" details="" size="2666" time="0" location="/home/maczech/.ivy2/cache/com.typesafe.akka/akka-actor_2.10/ivy-2.3.7.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.10/2.3.7/akka-actor_2.10-2.3.7.pom"/>
 				<caller organisation="com.mcz" name="gps-system_2.10" conf="compile" rev="2.3.7" rev-constraint-default="2.3.7" rev-constraint-dynamic="2.3.7" callerrev="0.1-SNAPSHOT"/>
@@ -91,7 +88,7 @@
 			</revision>
 		</module>
 		<module organisation="com.typesafe" name="config">
-			<revision name="1.2.1" status="release" pubdate="20140502155416" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/typesafehub/config" downloaded="false" searched="false" default="false" conf="compile, runtime, compile(*), runtime(*), master(compile), master" position="2">
+			<revision name="1.2.1" status="release" pubdate="20140502155416" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/typesafehub/config" downloaded="false" searched="false" default="false" conf="compile, runtime, compile(*), runtime(*), master(compile), master" position="3">
 				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
 				<metadata-artifact status="no" details="" size="2752" time="0" location="/home/maczech/.ivy2/cache/com.typesafe/config/ivy-1.2.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/config/1.2.1/config-1.2.1.pom"/>
 				<caller organisation="com.typesafe.akka" name="akka-actor_2.10" conf="default, compile, runtime, master" rev="1.2.1" rev-constraint-default="1.2.1" rev-constraint-dynamic="1.2.1" callerrev="2.3.7"/>
