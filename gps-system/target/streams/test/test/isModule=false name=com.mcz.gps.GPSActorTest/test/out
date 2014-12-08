@@ -1,0 +1,5 @@
+[0m[[0minfo[0m] [0m[32mGPSActorTest:[0m[0m
+[0m[[0minfo[0m] [0m[32mA GPS Actor[0m[0m
+[0m[[0minfo[0m] [0m[32m- should Respond with coordinates message[0m[0m
+[0m[[0minfo[0m] [0m[32mA GPS Actor[0m[0m
+[0m[[0minfo[0m] [0m[32m- should Log warning when wrong message type[0m[0m

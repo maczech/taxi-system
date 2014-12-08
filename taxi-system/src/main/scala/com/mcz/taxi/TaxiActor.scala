@@ -19,23 +19,23 @@ import akka.event.Logging
 
 object TaxiActor {
   val config = ConfigFactory.load()
-
-  def create(): Props = Props(new TaxiActor(config.getInt("taxi-system.taxi-id")))
+  val tubeStationLocator: TubeStationLocatorAdapter = new TubeStationLocatorAdapter
+  def create(): Props = Props(new TaxiActor(config.getInt("taxi-system.taxi-id"),Props[GPSActor],Props[ManagementCenterActor],tubeStationLocator))
 }
 
-class TaxiActor(taxiId: Int) extends Actor {
+class TaxiActor(val taxiId: Int,gpsActorProps:Props, managementActorProps:Props, val tubeStationLocator: TubeStationLocatorAdapter) extends Actor {
 
   val log = Logging(context.system, this)
 
   var gpsActor: ActorRef = _
   var managementCenterActor: ActorRef = _
-  val tubeStationLocator: TubeStationLocatorAdapter = new TubeStationLocatorAdapter
+  
 
   val config = ConfigFactory.load()
 
   override def preStart() {
-    gpsActor = context.actorOf(Props[GPSActor], config.getString("taxi-system.actor.gps.name"))
-    managementCenterActor = context.actorOf(Props[ManagementCenterActor], config.getString("taxi-system.actor.management-center.name"))
+    gpsActor = context.actorOf(gpsActorProps, config.getString("taxi-system.actor.gps.name"))
+    managementCenterActor = context.actorOf(managementActorProps, config.getString("taxi-system.actor.management-center.name"))
   }
 
   def receive = {

@@ -4,7 +4,7 @@
 		module="taxi-system_2.10"
 		revision="0.1-SNAPSHOT"
 		status="integration"
-		publication="20141208054201"
+		publication="20141208070948"
 	>
 		<description>
 		taxi-system
@@ -37,5 +37,7 @@
 		<dependency org="com.mcz" name="management-center_2.10" rev="0.1-SNAPSHOT" conf="compile->default(compile)"/>
 		<dependency org="com.typesafe.akka" name="akka-actor_2.10" rev="2.3.7" conf="compile->default(compile)"/>
 		<dependency org="com.typesafe.akka" name="akka-slf4j_2.10" rev="2.3.7" conf="compile->default(compile)"/>
+		<dependency org="com.typesafe.akka" name="akka-testkit_2.10" rev="2.3.7" conf="compile->default(compile)"/>
+		<dependency org="org.scalatest" name="scalatest_2.10" rev="2.2.2" conf="compile->default(compile)"/>
 	</dependencies>
 </ivy-module>
