@@ -1,7 +1,0 @@
-[0m[[0minfo[0m] [0m[32mManagementCenterActorTest:[0m[0m
-[0m[[0minfo[0m] [0m[32mA Management Center Actor[0m[0m
-[0m[[0minfo[0m] [0m[32m- should log warning when wrong message type[0m[0m
-[0m[[0minfo[0m] [0m[32mA Management Center Actor[0m[0m
-[0m[[0minfo[0m] [0m[32m- should log error when exception from Management Center[0m[0m
-[0m[[0minfo[0m] [0m[32mA Management Center Actor[0m[0m
-[0m[[0minfo[0m] [0m[32m- should send location to Management Center when Location Event[0m[0m

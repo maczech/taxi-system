@@ -69,7 +69,7 @@ class TaxiActorTest extends TestKit(ActorSystem("TaxiActorTest", ConfigFactory.p
 
 
   "A Taxi Actor" should {
-    "log error when exception from Tube station locator" in {
+    "log error when exception from Tube Station Locator" in {
 
       when(mockTubeStationLocator closeToTubeStation (any[Coordinate])) thenThrow (new RuntimeException)
 

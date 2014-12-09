@@ -20,10 +20,10 @@ import akka.event.Logging
 object TaxiActor {
   val config = ConfigFactory.load()
   val tubeStationLocator: TubeStationLocatorAdapter = new TubeStationLocatorAdapter
-  def create(): Props = Props(new TaxiActor(config.getInt("taxi-system.taxi-id"),Props[GPSActor],ManagementCenterActor.create,tubeStationLocator))
+  def create(): Props = Props(new TaxiActor(config.getInt("taxi-system.taxi-id"), Props[GPSActor], ManagementCenterActor.create, tubeStationLocator))
 }
 
-class TaxiActor(val taxiId: Int,gpsActorProps:Props, managementActorProps:Props, val tubeStationLocator: TubeStationLocatorAdapter) extends Actor {
+class TaxiActor(val taxiId: Int, gpsActorProps:Props, managementActorProps:Props, val tubeStationLocator: TubeStationLocatorAdapter) extends Actor {
 
   val log = Logging(context.system, this)
 
@@ -47,7 +47,6 @@ class TaxiActor(val taxiId: Int,gpsActorProps:Props, managementActorProps:Props,
   def sendLocation(coordinate: Coordinate) {
     import context.dispatcher
     val tubeLocationCall = Future {
-      log.debug("Calling tube location call with coordinate:"+coordinate)
       tubeStationLocator.closeToTubeStation(coordinate);
     }
     tubeLocationCall.onComplete {

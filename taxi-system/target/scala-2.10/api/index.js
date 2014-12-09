@@ -1,1 +1,0 @@
-Index.PACKAGES = {"com" : [], "com.mcz" : [{"object" : "com\/mcz\/Taxisystem$.html", "name" : "com.mcz.Taxisystem"}], "com.mcz.taxi" : [{"class" : "com\/mcz\/taxi\/TaxiActor.html", "object" : "com\/mcz\/taxi\/TaxiActor$.html", "name" : "com.mcz.taxi.TaxiActor"}, {"class" : "com\/mcz\/taxi\/TubeStationLocatorAdapter.html", "name" : "com.mcz.taxi.TubeStationLocatorAdapter"}]};
